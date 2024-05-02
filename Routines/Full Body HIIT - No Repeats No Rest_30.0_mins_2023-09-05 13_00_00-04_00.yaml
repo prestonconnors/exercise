@@ -1,0 +1,176 @@
+- length: 180.0
+  name: warmup
+  position: all
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - warmup
+- length: 48.0
+  name: 2 Pushups / 2 Shoulder Taps / 2 Plank Jacks
+  targeted groups:
+  - lower body
+  - upper body
+  - core
+- length: 48.0
+  name: Armpit To Opposite Knee
+  targeted groups:
+  - lower body
+  - upper body
+  - core
+  - cardio
+- length: 48.0
+  name: Deadlift
+  targeted groups:
+  - lower body
+  - cardio
+- length: 48.0
+  name: Mountain Climber / Breakdance
+  targeted groups:
+  - lower body
+  - upper body
+  - core
+- length: 48.0
+  name: Beast Hold
+  targeted groups:
+  - lower body
+  - upper body
+  - core
+- length: 48.0
+  name: Split Squat Runner
+  targeted groups:
+  - lower body
+  - upper body
+  - cardio
+- length: 48.0
+  name: Pyramid Tricep Extension
+  targeted groups:
+  - lower body
+  - upper body
+- length: 48.0
+  name: Reverse Plank Crunch
+  targeted groups:
+  - lower body
+  - upper body
+  - core
+- length: 48.0
+  name: 6 High Knees 2 Jumping Jacks
+  targeted groups:
+  - lower body
+  - cardio
+- length: 48.0
+  name: Side Wood Chops
+  targeted groups:
+  - core
+- length: 48.0
+  name: Calf Raise
+  targeted groups:
+  - lower body
+- length: 48.0
+  name: Sumo Squat
+  targeted groups:
+  - upper body
+- length: 48.0
+  name: Touchdowns
+  targeted groups:
+  - lower body
+  - cardio
+- length: 48.0
+  name: Surrenders
+  targeted groups:
+  - lower body
+  - cardio
+- length: 48.0
+  name: Superman / Lat Pull
+  targeted groups:
+  - lower body
+  - upper body
+  - core
+- length: 48.0
+  name: 3 Skaters / Hop Forward Hop Back
+  targeted groups:
+  - lower body
+  - cardio
+- length: 48.0
+  name: Reaching Away
+  targeted groups:
+  - lower body
+  - upper body
+  - core
+- length: 48.0
+  name: Lift Chop Center Drop
+  targeted groups:
+  - core
+  - lower body
+  - upper body
+- length: 48.0
+  name: Run
+  targeted groups:
+  - cardio
+- length: 48.0
+  name: Negative Bicep Curl To Shoulder Press
+  targeted groups:
+  - lower body
+  - upper body
+  - cardio
+  - core
+- length: 48.0
+  name: Chair Pose
+  targeted groups:
+  - lower body
+  - core
+- length: 48.0
+  name: Single Leg Stretch
+  targeted groups:
+  - core
+  - lower body
+  - upper body
+- length: 48.0
+  name: Power Slams
+  targeted groups:
+  - lower body
+  - upper body
+  - cardio
+  - core
+- length: 48.0
+  name: Stiff-Leg Ankle Hop
+  targeted groups:
+  - lower body
+- length: 48.0
+  name: Bear Crawl
+  targeted groups:
+  - lower body
+  - upper body
+  - core
+- length: 48.0
+  name: Upper Cut
+  targeted groups:
+  - cardio
+- length: 48.0
+  name: Squats / 3 Pulses
+  targeted groups:
+  - lower body
+- length: 48.0
+  name: Inchworm
+  targeted groups:
+  - lower body
+  - upper body
+  - core
+- length: 48.0
+  name: Fast Feet
+  targeted groups:
+  - cardio
+- length: 48.0
+  name: Windshield Wiper
+  targeted groups:
+  - core
+- length: 180.0
+  name: cool down
+  position: all
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - cool down

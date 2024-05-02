@@ -1,0 +1,180 @@
+- length: 180.0
+  name: warmup
+  position: all
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - warmup
+- length: 48.0
+  name: Side Lunge / Knee Drive
+  targeted groups:
+  - lower body
+  - core
+- length: 48.0
+  name: Beast Hold
+  targeted groups:
+  - lower body
+  - upper body
+  - core
+- length: 48.0
+  name: Power Slams
+  targeted groups:
+  - lower body
+  - upper body
+  - cardio
+  - core
+- length: 48.0
+  name: Single Leg Calf Raise
+  targeted groups:
+  - lower body
+- length: 48.0
+  name: Split Squat Runner
+  targeted groups:
+  - lower body
+  - upper body
+  - cardio
+- length: 48.0
+  name: Plank + Butt Kicks
+  targeted groups:
+  - lower body
+  - upper body
+  - cardio
+  - core
+- length: 48.0
+  name: Burpee + 2 Star Jumps
+  targeted groups:
+  - lower body
+  - upper body
+  - cardio
+  - core
+- length: 48.0
+  name: Triceps Dips
+  targeted groups:
+  - upper body
+- length: 48.0
+  name: Press Jacks
+  targeted groups:
+  - lower body
+  - upper body
+  - cardio
+- length: 48.0
+  name: Bicycle + Toe Tap
+  targeted groups:
+  - core
+- length: 48.0
+  name: Pushup + 4 Mountain Climbers
+  targeted groups:
+  - upper body
+  - lower body
+  - cardio
+- length: 48.0
+  name: Euro Step
+  targeted groups:
+  - lower body
+  - upper body
+  - cardio
+  - core
+- length: 48.0
+  name: Broad Jump / Shuffle Back
+  targeted groups:
+  - upper body
+  - lower body
+  - cardio
+- length: 48.0
+  name: Stiff-Leg Ankle Hop
+  targeted groups:
+  - lower body
+- length: 48.0
+  name: Bear Crawl
+  targeted groups:
+  - lower body
+  - upper body
+  - core
+- length: 48.0
+  name: Touchdowns
+  targeted groups:
+  - lower body
+  - cardio
+- length: 48.0
+  name: Crab Walk
+  targeted groups:
+  - lower body
+  - upper body
+  - core
+- length: 48.0
+  name: Inchworm
+  targeted groups:
+  - lower body
+  - upper body
+  - core
+- length: 48.0
+  name: Fast Feet
+  targeted groups:
+  - cardio
+- length: 48.0
+  name: Tuck Up
+  targeted groups:
+  - core
+- length: 48.0
+  name: Carioca
+  targeted groups:
+  - lower body
+  - cardio
+- length: 48.0
+  name: Superman / Lat Pull
+  targeted groups:
+  - lower body
+  - upper body
+  - core
+- length: 48.0
+  name: Small Skaters
+  targeted groups:
+  - lower body
+  - cardio
+- length: 48.0
+  name: Chair Pose
+  targeted groups:
+  - lower body
+  - core
+- length: 48.0
+  name: Lift Chop Center Drop
+  targeted groups:
+  - core
+  - lower body
+  - upper body
+- length: 48.0
+  name: Twist / Punch
+  targeted groups:
+  - upper body
+  - cardio
+- length: 48.0
+  name: Pop Squats
+  targeted groups:
+  - lower body
+  - cardio
+- length: 48.0
+  name: Fly To Situp
+  targeted groups:
+  - lower body
+  - upper body
+- length: 48.0
+  name: Lateral High Knees
+  targeted groups:
+  - lower body
+  - upper body
+  - cardio
+- length: 48.0
+  name: Tabletop Crunches
+  targeted groups:
+  - core
+- length: 180.0
+  name: cool down
+  position: all
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - cool down

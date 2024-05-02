@@ -1,0 +1,30 @@
+- length: 180.0
+  name: warmup
+  position: all
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - warmup
+- length: 147
+  name: plank for 2:27
+  targeted groups:
+  - plank 1
+- length: 1145.0
+  name: abs and core
+  targeted groups:
+  - abs and core
+- length: 148
+  name: plank for 2:28
+  targeted groups:
+  - plank 2
+- length: 180.0
+  name: cool down
+  position: all
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - cool down

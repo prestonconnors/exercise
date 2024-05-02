@@ -1,0 +1,172 @@
+- length: 180.0
+  name: warmup
+  position: all
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - warmup
+- length: 48.0
+  name: Criss Cross / Knee To Elbow
+  targeted groups:
+  - lower body
+  - cardio
+  - core
+- length: 48.0
+  name: Side Jacks
+  targeted groups:
+  - lower body
+  - upper body
+  - cardio
+- length: 48.0
+  name: Single Leg Jump Squat
+  targeted groups:
+  - lower body
+  - cardio
+- length: 48.0
+  name: Chair Pose
+  targeted groups:
+  - lower body
+  - core
+- length: 48.0
+  name: Plank Jack / Shoulder Tap
+  targeted groups:
+  - lower body
+  - upper body
+  - cardio
+  - core
+- length: 48.0
+  name: Butt Kicks
+  targeted groups:
+  - cardio
+- length: 48.0
+  name: Lateral Tuck Jumps
+  targeted groups:
+  - lower body
+  - cardio
+- length: 48.0
+  name: Frog Stand
+  targeted groups:
+  - upper body
+  - core
+- length: 48.0
+  name: Small Skaters
+  targeted groups:
+  - lower body
+  - cardio
+- length: 48.0
+  name: Burpee
+  targeted groups:
+  - lower body
+  - upper body
+  - cardio
+  - core
+- length: 48.0
+  name: Power Slams
+  targeted groups:
+  - lower body
+  - upper body
+  - cardio
+  - core
+- length: 48.0
+  name: Pushup / Beast / Break Dance
+  targeted groups:
+  - upper body
+  - core
+- length: 48.0
+  name: Touchdowns
+  targeted groups:
+  - lower body
+  - cardio
+- length: 48.0
+  name: Prisoner Lunge
+  targeted groups:
+  - lower body
+- length: 48.0
+  name: Piston Press
+  targeted groups:
+  - upper body
+- length: 48.0
+  name: Euro Step
+  targeted groups:
+  - lower body
+  - upper body
+  - cardio
+  - core
+- length: 48.0
+  name: Mountain Climber
+  targeted groups:
+  - lower body
+  - upper body
+  - core
+- length: 48.0
+  name: Punch Over / Unders
+  targeted groups:
+  - upper body
+  - cardio
+- length: 48.0
+  name: Jumping Rope
+  targeted groups:
+  - lower body
+  - cardio
+- length: 48.0
+  name: Wood Chops
+  targeted groups:
+  - core
+- length: 48.0
+  name: Rainbow Thrusters
+  targeted groups:
+  - lower body
+- length: 48.0
+  name: Curtsy + Reach Up + Down
+  targeted groups:
+  - lower body
+  - upper body
+- length: 48.0
+  name: Run
+  targeted groups:
+  - cardio
+- length: 48.0
+  name: Donkey Kick
+  targeted groups:
+  - lower body
+- length: 48.0
+  name: Inchworm
+  targeted groups:
+  - lower body
+  - upper body
+  - core
+- length: 48.0
+  name: Fast Feet
+  targeted groups:
+  - cardio
+- length: 48.0
+  name: Calf Raise
+  targeted groups:
+  - lower body
+- length: 48.0
+  name: Pyramid Tricep Extension
+  targeted groups:
+  - lower body
+  - upper body
+- length: 48.0
+  name: Carioca
+  targeted groups:
+  - lower body
+  - cardio
+- length: 48.0
+  name: Superman / Lat Pull
+  targeted groups:
+  - lower body
+  - upper body
+  - core
+- length: 180.0
+  name: cool down
+  position: all
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - cool down

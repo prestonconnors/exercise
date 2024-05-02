@@ -1,0 +1,175 @@
+- length: 180.0
+  name: warmup
+  position: all
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - warmup
+- length: 48.0
+  name: Single Leg Dead Lift / Curtsey Lunge
+  targeted groups:
+  - lower body
+- length: 48.0
+  name: Squat Hold + Pull Down
+  targeted groups:
+  - lower body
+  - upper body
+- length: 48.0
+  name: Seal Jacks
+  targeted groups:
+  - lower body
+  - cardio
+- length: 48.0
+  name: Donkey Kick
+  targeted groups:
+  - lower body
+- length: 48.0
+  name: Diamond Pushup
+  targeted groups:
+  - upper body
+  - core
+- length: 48.0
+  name: 8 Mountain Climbers / Hop Up
+  targeted groups:
+  - cardio
+  - lower body
+  - upper body
+  - core
+- length: 48.0
+  name: Plank Jack / Shoulder Tap
+  targeted groups:
+  - lower body
+  - upper body
+  - cardio
+  - core
+- length: 48.0
+  name: Lateral High Knees
+  targeted groups:
+  - lower body
+  - upper body
+  - cardio
+- length: 48.0
+  name: Ski Jumps
+  targeted groups:
+  - lower body
+  - cardio
+- length: 48.0
+  name: Side Crunch
+  targeted groups:
+  - core
+- length: 48.0
+  name: Broad Jump / Shuffle Back
+  targeted groups:
+  - upper body
+  - lower body
+  - cardio
+- length: 48.0
+  name: Fly To Situp
+  targeted groups:
+  - lower body
+  - upper body
+- length: 48.0
+  name: Small Skaters
+  targeted groups:
+  - lower body
+  - cardio
+- length: 48.0
+  name: Hopscotch
+  targeted groups:
+  - lower body
+  - core
+- length: 48.0
+  name: Punch Over / Unders
+  targeted groups:
+  - upper body
+  - cardio
+- length: 48.0
+  name: Power Skips
+  targeted groups:
+  - lower body
+  - cardio
+- length: 48.0
+  name: Pop Squats
+  targeted groups:
+  - lower body
+  - cardio
+- length: 48.0
+  name: Pyramid Tricep Extension
+  targeted groups:
+  - lower body
+  - upper body
+- length: 48.0
+  name: Fast Feet
+  targeted groups:
+  - cardio
+- length: 48.0
+  name: Russian Twists / Tuck
+  targeted groups:
+  - core
+- length: 48.0
+  name: Burpee
+  targeted groups:
+  - lower body
+  - upper body
+  - cardio
+  - core
+- length: 48.0
+  name: Frog Stand
+  targeted groups:
+  - upper body
+  - core
+- length: 48.0
+  name: Punching Knee Drives
+  targeted groups:
+  - core
+  - cardio
+  - upper body
+- length: 48.0
+  name: Touchdowns
+  targeted groups:
+  - lower body
+  - cardio
+- length: 48.0
+  name: Inchworm
+  targeted groups:
+  - lower body
+  - upper body
+  - core
+- length: 48.0
+  name: Jumping Rope
+  targeted groups:
+  - lower body
+  - cardio
+- length: 48.0
+  name: Euro Step
+  targeted groups:
+  - lower body
+  - upper body
+  - cardio
+  - core
+- length: 48.0
+  name: Crab Walk
+  targeted groups:
+  - lower body
+  - upper body
+  - core
+- length: 48.0
+  name: Run
+  targeted groups:
+  - cardio
+- length: 48.0
+  name: Ball Slams
+  targeted groups:
+  - lower body
+  - core
+- length: 180.0
+  name: cool down
+  position: all
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - cool down

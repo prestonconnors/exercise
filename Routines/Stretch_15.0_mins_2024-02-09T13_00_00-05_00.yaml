@@ -1,0 +1,95 @@
+- length: 0.0
+  name: warmup
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - warmup
+- length: 60.0
+  name: world's best stretch
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: pigeon pose
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: shavasana
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: runners lunge
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: neck roll
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: high cobra
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: cat / cow
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: seated side body stretch
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: Cossack Stretch
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: butterfly stretch
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: bottom of foot stretch
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: child's pose
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: quad stretch
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: forearm stretch
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: neck stretch
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 0.0
+  name: cool down
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - cool down

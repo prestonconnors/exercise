@@ -1,0 +1,175 @@
+Full Body HIIT - 3 Rounds:
+  percent_of_time:
+    warmup: .10
+    cool down: .10
+    conditioning: .80
+  conditioning_blocks: 1
+  repeat_conditioning_blocks: 3
+  exercises_per_block:
+    - lower body
+    - upper body
+    - cardio
+    - lower body
+    - upper body
+    - cardio
+    - lower body
+    - upper body
+    - cardio
+    - core
+  rest_time_after_block: 60
+  rest_time_after_exercise: 0
+  rest_name: "rest"
+  hashtags:
+    - "#hiit"
+    - "#cardio"
+    - "#workout"
+    - "#exercise"
+  subject_positioning: "Far"
+  thumbnail_text: "Full Body HIIT"
+
+Tuesday:
+  percent_of_time:
+    warmup: .10
+    cool down: .10
+    conditioning: .80
+  conditioning_blocks: 1
+  repeat_conditioning_blocks: 0
+  exercises_per_block:
+    - lower body
+    - upper body
+    - cardio
+    - lower body
+    - upper body
+    - cardio
+    - lower body
+    - upper body
+    - cardio
+    - core
+    - lower body
+    - upper body
+    - cardio
+    - lower body
+    - upper body
+    - cardio
+    - lower body
+    - upper body
+    - cardio
+    - core
+    - lower body
+    - upper body
+    - cardio
+    - lower body
+    - upper body
+    - cardio
+    - lower body
+    - upper body
+    - cardio
+    - core
+  rest_time_after_block: 0
+  rest_time_after_exercise: 0
+  rest_name: "rest"
+  hashtags:
+    - "#hiit"
+    - "#cardio"
+    - "#workout"
+    - "#exercise"
+  subject_positioning: "Far"
+  thumbnail_text: "Non Stop HIIT"
+
+Tabata:
+  percent_of_time:
+    warmup: .10
+    cool down: .10
+    conditioning: .80
+  conditioning_blocks: 6
+  repeat_conditioning_blocks: 4
+  exercises_per_block:
+    - any
+    - any
+  #exercise_length: 20
+  rest_time_after_block: 0
+  rest_time_after_exercise: 10
+  rest_name: "rest"
+  hashtags:
+    - "#tabata"
+    - "#hiit"
+    - "#cardio"
+    - "#workout"
+    - "#exercise"
+  subject_positioning: "Far"
+  thumbnail_text: "Tabata"
+
+Wednesday:
+  percent_of_time:
+    warmup: .10
+    cool down: .10
+    conditioning: .80
+  conditioning_blocks: 1
+  repeat_conditioning_blocks: 0
+  exercises_per_block:
+    - plank 1
+    - core
+    - core
+    - core
+    - core
+    - core
+    - core
+    - core
+    - core
+    - core
+    - core
+    - core
+    - core
+    - core
+    - core
+    - core
+    - core
+    - core
+    - core
+    - core
+    - core
+    - plank 2
+  rest_time_after_block: 0
+  rest_time_after_exercise: 10
+  rest_name: "transition"
+  hashtags:
+    - "#abs"
+    - "#core"
+    - "#pilates"
+    - "#workout"
+    - "#exercise"
+  subject_positioning: "Near"
+  thumbnail_text: "Core + Pilates"
+
+Stretch:
+  percent_of_time:
+    warmup: 0
+    cool down: 0
+    conditioning: 1
+  conditioning_blocks: 1
+  repeat_conditioning_blocks: 0
+  exercises_per_block:
+    - stretch
+    - stretch
+    - stretch
+    - stretch
+    - stretch
+    - stretch
+    - stretch
+    - stretch
+    - stretch
+    - stretch
+    - stretch
+    - stretch
+    - stretch
+    - stretch
+    - stretch
+  rest_time_after_block: 0
+  rest_time_after_exercise: 0
+  rest_name: "rest"
+  hashtags:
+    - "#stretching"
+    - "#workout"
+    - "#exercise"
+  subject_positioning: "Near"
+  thumbnail_text: "Stretch"

@@ -1,0 +1,167 @@
+- length: 180.0
+  name: warmup
+  position: all
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - warmup
+- length: 48.0
+  name: Traveling Squats
+  targeted groups:
+  - lower body
+- length: 48.0
+  name: Squat + Punch
+  targeted groups:
+  - lower body
+  - upper body
+- length: 48.0
+  name: Tuck Jump
+  targeted groups:
+  - lower body
+  - cardio
+  - core
+- length: 48.0
+  name: Half Burpee / Knee Drive
+  targeted groups:
+  - upper body
+  - lower body
+  - cardio
+  - core
+- length: 48.0
+  name: Lateral Plank Walk
+  targeted groups:
+  - upper body
+  - core
+- length: 48.0
+  name: Seal Jacks
+  targeted groups:
+  - lower body
+  - cardio
+- length: 48.0
+  name: Surrenders
+  targeted groups:
+  - lower body
+- length: 48.0
+  name: Wide Pushup
+  targeted groups:
+  - upper body
+  - core
+- length: 48.0
+  name: In In Out Out Jumps
+  targeted groups:
+  - lower body
+  - cardio
+- length: 48.0
+  name: Dead Bug
+  targeted groups:
+  - core
+- length: 48.0
+  name: Chair Pose
+  targeted groups:
+  - lower body
+  - core
+- length: 48.0
+  name: Mountain Climber
+  targeted groups:
+  - lower body
+  - upper body
+  - core
+- length: 48.0
+  name: Jumping Lunge
+  targeted groups:
+  - lower body
+  - cardio
+- length: 48.0
+  name: Superman / Lat Pull
+  targeted groups:
+  - lower body
+  - upper body
+  - core
+- length: 48.0
+  name: Frog Stand
+  targeted groups:
+  - upper body
+  - core
+- length: 48.0
+  name: Power Slams
+  targeted groups:
+  - lower body
+  - upper body
+  - cardio
+  - core
+- length: 48.0
+  name: Single Leg Calf Raise
+  targeted groups:
+  - lower body
+- length: 48.0
+  name: Fly To Situp
+  targeted groups:
+  - lower body
+  - upper body
+- length: 48.0
+  name: Skaters / Hop Forward and Backward
+  targeted groups:
+  - lower body
+  - cardio
+- length: 48.0
+  name: Windshield Wiper
+  targeted groups:
+  - core
+- length: 48.0
+  name: Side Lying Clam
+  targeted groups:
+  - lower body
+- length: 48.0
+  name: Euro Step
+  targeted groups:
+  - lower body
+  - upper body
+  - cardio
+  - core
+- length: 48.0
+  name: High Knees
+  targeted groups:
+  - cardio
+- length: 48.0
+  name: Reach Up + Down
+  targeted groups:
+  - lower body
+- length: 48.0
+  name: Bear Crawl
+  targeted groups:
+  - lower body
+  - upper body
+  - core
+- length: 48.0
+  name: Fast Feet
+  targeted groups:
+  - cardio
+- length: 48.0
+  name: Donkey Kick
+  targeted groups:
+  - lower body
+- length: 48.0
+  name: Shoulder Taps
+  targeted groups:
+  - core
+  - upper body
+- length: 48.0
+  name: Touchdowns
+  targeted groups:
+  - lower body
+  - cardio
+- length: 48.0
+  name: Glute Bridge
+  targeted groups:
+  - core
+- length: 180.0
+  name: cool down
+  position: all
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - cool down

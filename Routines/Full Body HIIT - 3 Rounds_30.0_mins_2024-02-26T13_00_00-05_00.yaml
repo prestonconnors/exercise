@@ -1,0 +1,119 @@
+- length: 180.0
+  name: warmup
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - warmup
+- &id001
+  length: 44.0
+  name: Running Leg Jump Rope
+  reel_or_short: true
+  targeted groups:
+  - lower body
+  - cardio
+- &id002
+  length: 44.0
+  name: Commando Crawl + Pushup
+  reel_or_short: false
+  targeted groups:
+  - upper body
+- &id003
+  length: 44.0
+  name: Lateral Bear Walk To Burpee
+  reel_or_short: false
+  targeted groups:
+  - upper body
+  - lower body
+  - cardio
+- &id004
+  length: 44.0
+  name: Side Lunge / Knee Drive
+  reel_or_short: false
+  targeted groups:
+  - lower body
+- &id005
+  length: 44.0
+  name: Plank + Down Dog
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+- &id006
+  length: 44.0
+  name: Small Skaters
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - cardio
+- &id007
+  length: 44.0
+  name: Prisoner Squat
+  reel_or_short: false
+  targeted groups:
+  - lower body
+- &id008
+  length: 44.0
+  name: Piston Press
+  reel_or_short: false
+  targeted groups:
+  - upper body
+- &id009
+  length: 44.0
+  name: Jumping Jacks
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+  - cardio
+- &id010
+  length: 44.0
+  name: Ukranian Twists
+  reel_or_short: false
+  targeted groups:
+  - core
+- &id011
+  length: 60
+  name: rest
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- *id001
+- *id002
+- *id003
+- *id004
+- *id005
+- *id006
+- *id007
+- *id008
+- *id009
+- *id010
+- *id011
+- *id001
+- *id002
+- *id003
+- *id004
+- *id005
+- *id006
+- *id007
+- *id008
+- *id009
+- *id010
+- length: 180.0
+  name: cool down
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - cool down

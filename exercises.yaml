@@ -1,0 +1,1255 @@
+# Warmup / Cool Down / Rest
+warmup:
+  targeted groups:
+    - full body
+  targeted_muscles:
+    - all
+  type:
+    - warmup
+  position:
+    all
+cool down:
+  targeted groups:
+    - full body
+  targeted_muscles:
+    - all
+  type:
+    - cool down
+  position:
+    all
+rest:
+  targeted groups:
+    - full body
+  targeted_muscles:
+    - all
+  type:
+    - rest
+  position:
+    all
+# Single Movements
+Calf Raise:
+  targeted groups:
+    - lower body
+Squat Calf Raise:
+  targeted groups:
+    - lower body
+Single Leg Calf Raise:
+  targeted groups:
+    - lower body
+Stiff-Leg Ankle Hop:
+  targeted groups:
+    - lower body
+#Wall Sit:
+#  targeted groups:
+#    - lower body
+Sumo Squat:
+  targeted groups:
+    - lower body
+Air Squat:
+  targeted groups:
+    - lower body
+Static Lunge:
+  targeted groups:
+    - lower body
+Forward Lunge:
+  targeted groups:
+    - lower body
+Reverse Lunge:
+  targeted groups:
+    - lower body
+Skater Squat:
+  targeted groups:
+    - lower body
+Shrimp Squat:
+  targeted groups:
+    - lower body
+Pistol Squat:
+  targeted groups:
+    - lower body
+Glute Bridge:
+  targeted groups:
+    - core
+Side Lying Clam:
+  targeted groups:
+    - lower body
+Donkey Kick:
+  targeted groups:
+    - lower body
+Bent Leg Donkey Kick:
+  targeted groups:
+    - lower body
+Single Leg Romanian Deadlift:
+  targeted groups:
+    - lower body
+Single Leg Glute Bridge:
+  targeted groups:
+    - core
+Shoulders-Elevated Hip Raise:
+  targeted groups:
+    - core
+Single Leg Shoulders Elevated Hip Raise:
+  targeted groups:
+    - core
+#Russian Leg Curl:
+#  targeted groups:
+#    - unknown
+#Shoulders-and-Feet-Elevated Hip Raise:
+#  targeted groups:
+#    - unknown
+#Single Leg Shoulders-and-Feet-Elevated Hip Raise:
+#  targeted groups:
+#    - unknown
+Situp :
+  targeted groups:
+    - core
+Twisting Situp:
+  targeted groups:
+    - core
+Crunch:
+  targeted groups:
+    - core
+Reverse Crunch:
+  targeted groups:
+    - core
+Side Crunch:
+  targeted groups:
+    - core
+Flutter Kick:
+  targeted groups:
+    - core
+Bicycle:
+  targeted groups:
+    - core
+Superman:
+  targeted groups:
+    - core
+Bird Dog:
+  targeted groups:
+    - core
+Dead Bug:
+  targeted groups:
+    - core
+Plank:
+  targeted groups:
+    - core
+#Feet-Elevated Plank:
+#  targeted groups:
+#    - core
+Side Plank:
+  targeted groups:
+    - core
+Feet-Elevated Side Plank:
+  targeted groups:
+    - core
+RKC Plank:
+  targeted groups:
+    - core
+Lying Straight-Leg Raise:
+  targeted groups:
+    - core
+Windshield Wiper:
+  targeted groups:
+    - core
+#L-Sit:
+#  targeted groups:
+#    - core
+#Dragon Flag:
+#  targeted groups:
+#    - core
+#YTWL:
+#  targeted groups:
+#    - upper body
+Spiderman Pushup:
+  targeted groups:
+    - upper body
+ #   - core
+Triceps Dips:
+  targeted groups:
+    - upper body
+Hindu Pushup:
+  targeted groups:
+    - upper body
+ #   - core
+Diamond Pushup:
+  targeted groups:
+    - upper body
+ #   - core
+Wide Pushup:
+  targeted groups:
+    - upper body
+ #   - core
+Side To Side Pushup :
+  targeted groups:
+    - upper body
+ #   - core
+#Feet-Elevated Pike Pushup:
+#  targeted groups:
+#    - lower body
+#    - upper body
+#    - cardio
+#    - core
+#Assisted One-Arm Pushup:
+#  targeted groups:
+#    - upper body
+#    - core
+#One-Arm Pushup:
+#  targeted groups:
+#    - upper body
+#    - core
+Crab Walk:
+  targeted groups:
+    - lower body
+    - upper body
+ #   - core
+Inchworm:
+  targeted groups:
+    - lower body
+    - upper body
+#   - core
+Bear Crawl:
+  targeted groups:
+    - lower body
+    - upper body
+#    - core
+#Crocodile Crawl:
+#  targeted groups:
+#    - lower body
+#    - upper body
+#    - core
+Mountain Climbers:
+  targeted groups:
+    - lower body
+    - upper body
+    - core
+Frog Stand:
+  targeted groups:
+    - upper body
+    - core
+#Planche:
+#  targeted groups:
+#    - lower body
+#    - upper body
+#    - core
+#Human Flag:
+#  targeted groups:
+#    - lower body
+#    - upper body
+#    - cardio
+#    - core
+Jumping Jacks:
+  targeted groups:
+    - lower body
+    - upper body
+    - cardio
+Jumping Rope:
+  targeted groups:
+    - lower body
+    - cardio
+Jump Squat:
+  targeted groups:
+    - lower body
+    - cardio
+Lateral Jump:
+  targeted groups:
+    - lower body
+#    - core
+Tuck Jump:
+  targeted groups:
+    - lower body
+    - cardio
+#    - core
+Jumping Lunge:
+  targeted groups:
+    - lower body
+    - cardio
+Burpee:
+  targeted groups:
+    - lower body
+    - upper body
+    - cardio
+#    - core
+#Clapping Pushup:
+#  targeted groups:
+#    - lower body
+#    - upper body
+#    - core
+#Knee-Slap Pushup:
+#  targeted groups:
+#    - lower body
+#    - upper body
+#    - core
+Jumping Skater Squat:
+  targeted groups:
+    - lower body
+    - cardio
+Single Leg Jump Squat:
+  targeted groups:
+    - lower body
+    - cardio
+#Flying Superman Pushup:
+#  targeted groups:
+#    - lower body
+#    - upper body
+#    - core
+#Aztec Pushup:
+#  targeted groups:
+#    - lower body
+#    - upper body
+#    - core
+
+# Compound Movements
+Tempo Situp / Arm Raise:
+  targeted groups:
+    - core
+8 Mountain Climbers / Hop Up:
+  targeted groups:
+    - cardio
+    - lower body
+    - upper body
+Knee Drive To Elbow:
+  targeted groups:
+    - cardio
+    - lower body
+2 Squats / Lateral Lunge:
+  targeted groups:
+    - lower body
+Fast Feet / Squat Jump:
+  targeted groups:
+    - cardio
+    - lower body
+ #   - core
+Hold Squat / Calf Raise:
+  targeted groups:
+    - lower body
+Punching Knee Drives:
+  targeted groups:
+ #   - core
+    - cardio
+    - upper body
+2 Rows / One Pushup:
+  targeted groups:
+    - upper body
+ #   - core
+2 Jacks / Punching Knee Drives:
+  targeted groups:
+    - lower body
+    - upper body
+    - core
+ #   - cardio
+Lift Chop Center Drop:
+  targeted groups:
+ #   - core
+    - lower body
+    - upper body
+Twist / Pylo Lunge:
+  targeted groups:
+ #   - core
+    - lower body
+    - upper body
+Hollow Body Hold:
+  targeted groups:
+    - core
+Front / Side Shoulder Raise:
+  targeted groups:
+    - upper body
+Transverse Squat:
+  targeted groups:
+    - lower body
+Walk Out / Pushup Ladder:
+  targeted groups:
+    - upper body
+4 Squat Jumps / 4 Jacks:
+  targeted groups:
+    - lower body
+    - cardio
+Alternating Front Lunge:
+  targeted groups:
+    - lower body
+3 Curls / 3 Kick Backs:
+  targeted groups:
+    - upper body
+3 Skaters / 6 High Knees:
+  targeted groups:
+    - lower body
+    - cardio
+Pistol Squat To Calf Raise:
+  targeted groups:
+    - lower body
+3 Skaters / 2 Jacks:
+  targeted groups:
+    - lower body
+    - cardio
+Pushup / Leg Extension:
+  targeted groups:
+    - upper body
+Squat Kicks:
+  targeted groups:
+    - lower body
+Front Lunge + Chop:
+  targeted groups:
+    - lower body
+Crunch + Leg Drop:
+  targeted groups:
+    - core
+Pushup + 4 Mountain Climbers:
+  targeted groups:
+    - upper body
+    - lower body
+    - cardio
+Broad Jump / Shuffle Back:
+  targeted groups:
+    - upper body
+    - lower body
+    - cardio
+3 Crunches / 4 Bicycles:
+  targeted groups:
+    - core
+Plank Jacks:
+  targeted groups:
+    - upper body
+    - lower body
+    - cardio
+High Knees:
+  targeted groups:
+    - cardio
+Squat Jump / Reverse Lunge:
+  targeted groups:
+    - lower body
+Jump / Opposite Toe Tap:
+  targeted groups:
+    - lower body
+Reverse Lunge + Over Head Press:
+  targeted groups:
+    - lower body
+Pushup / Beast / Break Dance:
+  targeted groups:
+    - upper body
+ #   - core
+Single Leg Dead Lift / Curtsy Lunge:
+  targeted groups:
+    - lower body
+Curtsy + Reach Up + Down:
+  targeted groups:
+    - lower body
+    - upper body
+Low Plank + Punch:
+  targeted groups:
+    - lower body
+    - upper body
+    - core
+Skaters / Hop Forward and Backward:
+  targeted groups:
+    - lower body
+    - cardio
+Piston Press:
+  targeted groups:
+    - upper body
+3 Kick Backs / 3 Squat Curls:
+  targeted groups:
+    - lower body
+    - upper body
+Punch Over / Unders:
+  targeted groups:
+    - upper body
+    - cardio
+Fly To Situp:
+  targeted groups:
+    - lower body
+    - upper body
+Surrenders:
+  targeted groups:
+    - lower body
+Row / Plank / Runners Lunge / Twist Open:
+  targeted groups:
+    - lower body
+    - upper body
+4 Squat Jumps / 4 Jacks:
+  targeted groups:
+    - lower body
+Cherry Pickers:
+  targeted groups:
+    - core
+Rear Lunge / Twist:
+  targeted groups:
+    - lower body
+Pyramid Tricep Extension:
+  targeted groups:
+    - lower body
+    - upper body
+Side To Side Twisting Jumps:
+  targeted groups:
+    - lower body
+    - cardio
+Lateral Bear Walk To Burpee:
+  targeted groups:
+    - upper body
+    - lower body
+    - cardio
+Lateral Tuck Jumps:
+  targeted groups:
+    - lower body
+    - cardio
+Plank / Row / Extend Arm / Pushup:
+  targeted groups:
+    - lower body
+    - upper body
+#    - core
+Lateral Lunge / Reverse Lunge:
+  targeted groups:
+    - lower body
+4 Jabs / 8 Jacks:
+  targeted groups:
+    - lower body
+    - upper body
+    - cardio
+Ukrainian Twists:
+  targeted groups:
+    - core
+4 Star Jumps / 8 High Knees:
+  targeted groups:
+    - lower body
+    - cardio
+Squats / 3 Pulses:
+  targeted groups:
+    - lower body
+Touchdown / Tuck Jumps:
+  targeted groups:
+    - lower body
+    - cardio
+Touchdowns:
+  targeted groups:
+    - lower body
+    - cardio
+Extended Plank:
+  targeted groups:
+    - lower body
+    - upper body
+    - core
+Wood Chops:
+  targeted groups:
+    - core
+Turn Jumps:
+  targeted groups:
+    - lower body
+    - cardio
+Sumo Squat / Bounce / Pivot:
+  targeted groups:
+    - lower body
+Hop / Duck Walk:
+  targeted groups:
+    - lower body
+Sixes Pushup:
+  targeted groups:
+    - lower body
+    - upper body
+#    - core
+Plank Up / Downs:
+  targeted groups:
+    - lower body
+    - upper body
+    - core
+Leg Rainbows:
+  targeted groups:
+    - core
+Leg Kicks:
+  targeted groups:
+    - core
+Jack Knife:
+  targeted groups:
+    - core
+Knee Drives:
+  targeted groups:
+    - lower body
+    - core
+Traveling Burpee:
+  targeted groups:
+    - lower body
+    - upper body
+    - cardio
+Run:
+  targeted groups:
+    - cardio
+Forward Lunge / Twist:
+  targeted groups:
+    - lower body
+#    - core
+Traveling Squats:
+  targeted groups:
+    - lower body
+Plyo Lunge:
+  targeted groups:
+    - lower body
+    - cardio
+Superman / Lat Pull:
+  targeted groups:
+    - lower body
+    - upper body
+    - core
+3 Jacks / 1 Air Jack:
+  targeted groups:
+    - lower body
+    - upper body
+    - cardio
+Beast Hold:
+  targeted groups:
+ #   - lower body
+ #   - upper body
+    - core
+Knee Knee / Toe Toe Taps:
+  targeted groups:
+    - lower body
+    - cardio
+Plank Hops:
+  targeted groups:
+    - lower body
+    - upper body
+180 Jump / Burpee:
+  targeted groups:
+    - lower body
+    - cardio
+Twist / Punch:
+  targeted groups:
+    - upper body
+    - cardio
+Ski Jumps:
+  targeted groups:
+    - lower body
+    - cardio
+Fast Feet:
+  targeted groups:
+    - cardio
+Criss Cross / Knee To Elbow:
+  targeted groups:
+ #   - lower body
+ #   - cardio
+    - core
+Small Skaters:
+  targeted groups:
+    - lower body
+    - cardio
+Squat / Knee To Elbow:
+  targeted groups:
+    - lower body
+ #   - core
+  Fast Feet / Burpee:
+    targeted groups:
+      - lower body
+      - upper body
+      - cardio
+Butt Kicks:
+  targeted groups:
+    - cardio
+Ball Slams:
+  targeted groups:
+    - lower body
+ #   - core
+Side Wood Chops:
+  targeted groups:
+    - core
+Half Burpee / Knee Drive:
+  targeted groups:
+    - upper body
+    - lower body
+    - cardio
+ #   - core
+Plank Kickbacks:
+  targeted groups:
+    - core
+    - lower body
+Knee To Elbow / Toe Tap:
+  targeted groups:
+    - core
+ #   - lower body
+Side Lunge / Knee Drive:
+  targeted groups:
+    - lower body
+ #   - core
+Lateral High Knees:
+  targeted groups:
+    - cardio
+    - lower body
+#Hopscotch:
+#  targeted groups:
+#    - lower body
+#    - core
+Plank Jack / Shoulder Tap:
+  targeted groups:
+    - lower body
+    - upper body
+    - cardio
+Crab Knee / Toe Taps:
+  targeted groups:
+    - lower body
+    - upper body
+    - core
+Russian Twists / Tuck:
+  targeted groups:
+    - core
+#Oblique Twist:
+#  targeted groups:
+#    - core
+Side To Side Shuffle:
+  targeted groups:
+    - cardio
+Leg Lift / Aquaman / Slice / Knees In:
+  targeted groups:
+    - cardio
+One Leg Glute Bridge / Fly:
+  targeted groups:
+    - lower body
+    - upper body
+    - core
+Beast + Knee Taps / Break Dance:
+  targeted groups:
+    - lower body
+    - upper body
+    - core
+Plank Up Down / 2 Plank Jacks / Inchworm / Jump:
+  targeted groups:
+    - lower body
+    - upper body
+#    - core
+Prisoner Squat:
+  targeted groups:
+    - lower body
+Prisoner Squat + Front Kick:
+  targeted groups:
+    - lower body
+Prisoner Lunge:
+  targeted groups:
+    - lower body
+Pushup / Superman:
+  targeted groups:
+    - upper body
+#    - core
+Chair Pose:
+  targeted groups:
+    - lower body
+#    - core
+Chair Pose / Burpee:
+  targeted groups:
+    - lower body
+#    - core
+In In Out Out Jumps:
+  targeted groups:
+    - lower body
+    - cardio
+Blast Off Pushup:
+  targeted groups:
+    - lower body
+    - upper body
+#    - core
+Side Jacks:
+  targeted groups:
+    - lower body
+    - upper body
+    - cardio
+Press Jacks:
+  targeted groups:
+    - lower body
+    - upper body
+    - cardio
+Squat Jacks:
+  targeted groups:
+    - lower body
+    - upper body
+    - cardio
+Split Squat Runner:
+  targeted groups:
+    - lower body
+    - upper body
+    - cardio
+Euro Step:
+  targeted groups:
+    - lower body
+    - upper body
+    - cardio
+#    - core
+Power Slams:
+  targeted groups:
+    - lower body
+    - upper body
+    - cardio
+#    - core
+Single Leg Jump Rope:
+  targeted groups:
+    - lower body
+    - cardio
+Running Leg Jump Rope:
+  targeted groups:
+    - lower body
+    - cardio
+Carioca:
+  targeted groups:
+    - lower body
+    - cardio
+#Power Skips:
+#  targeted groups:
+#    - lower body
+#    - cardio
+Fast Feet + Side Steps:
+  targeted groups:
+    - lower body
+    - cardio
+Plyo Side Lunge:
+  targeted groups:
+    - lower body
+    - cardio
+Pushup + Pike:
+  targeted groups:
+    - upper body
+#    - core
+Single Raised Straight Leg Crunch:
+  targeted groups:
+    - core
+Single Raised Straight Leg Crunch + Toe Reach:
+  targeted groups:
+    - core
+Lateral Plank Walk:
+  targeted groups:
+    - upper body
+    - core
+Lateral Lunge / Front Lunge / Rear Lunge:
+  targeted groups:
+    - lower body
+Rainbow Thrusters:
+  targeted groups:
+    - lower body
+No Jump Squat Jacks:
+  targeted groups:
+    - lower body
+Reverse Lunge + Kick:
+  targeted groups:
+    - lower body
+    - cardio
+Mini Squat + Punch:
+  targeted groups:
+    - lower body
+    - cardio
+Seal Jacks:
+  targeted groups:
+    - lower body
+    - cardio
+Burpee + Lunge Scissor Jumps:
+  targeted groups:
+    - lower body
+    - cardio
+Alternating Toe Taps:
+    targeted groups:
+    - core
+Hollow Knee Hug:
+    targeted groups:
+    - core
+Lean Back + Kick Out:
+    targeted groups:
+    - core
+Scissor Kicks:
+    targeted groups:
+    - core
+Swimmer Crunches + Reach To Knee:
+    targeted groups:
+    - core
+Twisting Situp To Knee:
+    targeted groups:
+    - core
+Commando Crawl + Pushup:
+  targeted groups:
+ #   - core
+    - upper body
+Pop Squats:
+  targeted groups:
+    - lower body
+    - cardio
+Reach Up + Down:
+  targeted groups:
+    - lower body
+Lunge + Reach:
+  targeted groups:
+    - lower body
+    - upper body
+Plank + Down Dog:
+  targeted groups:
+    - lower body
+    - upper body
+Seal Squat Jacks:
+  targeted groups:
+    - lower body
+    - upper body
+Shoulder Taps:
+  targeted groups:
+    - core
+    - upper body
+One Leg Plank:
+  targeted groups:
+    - lower body
+    - upper body
+    - core
+Squat + Punch:
+  targeted groups:
+    - lower body
+    - upper body
+One Leg Pushup:
+  targeted groups:
+    - lower body
+    - upper body
+#    - core
+Squat Hold + Pull Down:
+  targeted groups:
+    - lower body
+    - upper body
+Squat + Overhead Reach:
+  targeted groups:
+    - lower body
+    - upper body
+Plank + Butt Kicks:
+  targeted groups:
+    - lower body
+    - upper body
+    - cardio
+    - core
+Extended Plank Walk Out:
+  targeted groups:
+    - lower body
+    - upper body
+    - cardio
+    - core
+Prisoner Reverse Lunge:
+  targeted groups:
+    - lower body
+Lunge + Knee Drive:
+  targeted groups:
+    - lower body
+#    - core
+Reverse Plank Crunch:
+  targeted groups:
+    - lower body
+    - upper body
+    - core
+Duck Walk:
+  targeted groups:
+    - lower body
+Burpee + 2 Star Jumps:
+  targeted groups:
+    - lower body
+    - upper body
+    - cardio
+#    - core
+Plank + Knee Taps:
+  targeted groups:
+    - lower body
+    - upper body
+    - core
+Slow Climbers:
+  targeted groups:
+    - lower body
+    - upper body
+    - core
+Bear Hold + Reach:
+  targeted groups:
+    - upper body
+    - core
+Body Saw:
+  targeted groups:
+    - upper body
+    - core
+Straight Leg Roll Up:
+  targeted groups:
+    - core
+Roll Up + Knee In:
+  targeted groups:
+    - core
+Tuck Up:
+  targeted groups:
+    - core
+Tabletop Crunches:
+  targeted groups:
+    - core
+Tabletop Toe Taps:
+  targeted groups:
+    - core
+Butterfly Crunches:
+  targeted groups:
+    - core
+Heel Walk:
+  targeted groups:
+    - core
+Bicycle + Toe Tap:
+  targeted groups:
+    - core
+Alternating Leg Raises:
+  targeted groups:
+    - core
+Full Leg Raises:
+  targeted groups:
+    - core
+Lean Back Kicks:
+  targeted groups:
+    - core
+Oblique Kicks:
+  targeted groups:
+    - core
+Pilates Hundreds:
+  targeted groups:
+    - core
+Roll Up:
+  targeted groups:
+    - core
+Single Leg Circles:
+  targeted groups:
+    - core
+Rolling Like A Ball:
+  targeted groups:
+    - core
+Single Leg Stretch:
+  targeted groups:
+    - core
+Double Leg Stretch:
+  targeted groups:
+    - core
+Single Leg Straight:
+  targeted groups:
+    - core
+Double Leg Straight:
+  targeted groups:
+    - core
+Criss Cross:
+  targeted groups:
+    - core
+Open Leg Rocker:
+  targeted groups:
+    - core
+Corkscrew:
+  targeted groups:
+    - core
+Neck Pull:
+  targeted groups:
+    - core
+Teaser Preparation:
+  targeted groups:
+    - core
+Seal:
+  targeted groups:
+    - core
+Pelvic Lift:
+  targeted groups:
+    - core
+#abs and core:
+#  targeted groups:
+#    - abs and core
+#"plank for 2:55":
+#  targeted groups:
+#    - plank 1
+#  length: 175
+#"plank for 2:56":
+#  targeted groups:
+#    - plank 2
+#  length: 176
+"plank for 1:28":
+  targeted groups:
+    - plank 1
+  length: 88
+"plank for 1:29":
+  targeted groups:
+    - plank 2
+  length: 89
+neck roll:
+  targeted groups:
+    - stretch
+neck:
+  targeted groups:
+    - stretch
+forearm:
+  targeted groups:
+    - stretch
+child's pose:
+  targeted groups:
+    - stretch
+world's best stretch:
+  targeted groups:
+    - stretch
+high cobra:
+  targeted groups:
+    - stretch
+bottom of foot:
+  targeted groups:
+    - stretch
+cat / cow:
+  targeted groups:
+    - stretch
+quad:
+  targeted groups:
+    - stretch
+pigeon pose:
+  targeted groups:
+    - stretch
+shavasana:
+  targeted groups:
+    - stretch
+butterfly:
+  targeted groups:
+    - stretch
+Cossack:
+  targeted groups:
+    - stretch
+runners lunge:
+  targeted groups:
+    - stretch
+seated side body:
+  targeted groups:
+    - stretch
+x-ups:
+  targeted groups:
+    - core
+2 Plank Jacks + Side Plank:
+  targeted groups:
+    - core
+Oblique Heel Taps:
+    targeted groups:
+    - core
+Pushup Burpee:
+    targeted groups:
+    - upper body
+    - lower body
+Step Back Knee Driver:
+    targeted groups:
+    - lower body
+Cobra Pushup:
+    targeted groups:
+    - upper body
+Scissor Crossovers:
+    targeted groups:
+    - core
+Chest To Floor Burpee:
+    targeted groups:
+    - upper body
+    - lower body
+Squat + Twist:
+    targeted groups:
+    - upper body
+    - lower body
+Shoulder:
+    targeted groups:
+      - stretch
+Chest:
+    targeted groups:
+      - stretch
+Chest:
+    targeted groups:
+      - stretch
+Hamstring:
+    targeted groups:
+      - stretch
+Tricep:
+    targeted groups:
+      - stretch
+Hip flexor:
+    targeted groups:
+      - stretch
+Lying Twist:
+    targeted groups:
+      - stretch
+Upper back:
+    targeted groups:
+      - stretch
+Downward Dog:
+    targeted groups:
+      - stretch
+Figure Four:
+    targeted groups:
+      - stretch
+Shoulder Roll:
+    targeted groups:
+      - stretch
+2 Plank Jacks / 1 Pushup:
+    targeted groups:
+      - upper body
+2 Pushups / 1 Half Plank:
+    targeted groups:
+      - upper body
+X-Ups To Tucks:
+    targeted groups:
+      - core
+Hand Behind Back / Side Plank:
+    targeted groups:
+      - core
+3 Skaters / 1 Leg Plank / 1 Leg Hop:
+    targeted groups:
+      - core
+Pushup / Low Plank Hold / Beast Hold:
+    targeted groups:
+      - upper body
+V Jump + Touch Ground / Plyo Lunge:
+    targeted groups:
+      - lower body
+      - cardio
+Broad Jump / Side Shuffle:
+    targeted groups:
+      - lower body
+      - cardio
+2 Rear Heel Taps / Burpee:
+    targeted groups:
+      - upper body
+      - lower body
+      - cardio
+Standing <x> knee + <y> toe taps:
+  targeted groups:
+    - upper body
+    - lower body
+  random_reps:
+    x:
+      min: 2
+      max: 4
+      multiple: 2
+    y:
+      min: 2
+      max: 4
+      multiple: 2
+High Knee Jacks:
+    targeted groups:
+      - upper body
+      - lower body
+Standing Reach + Toe Tap:
+    targeted groups:
+      - upper body
+      - lower body
+      - cardio
+<x> Heel Taps + Pop Squat:
+  targeted groups:
+    - upper body
+    - lower body
+  random_reps:
+    x:
+      min: 2
+      max: 4
+      multiple: 1
+Curtsy + Crunch:
+    targeted groups:
+      - upper body
+      - lower body
+      - cardio
+Twisted Jumps:
+  targeted groups:
+      - cardio
+Plie Squat + Side Bend:
+    targeted groups:
+    - upper body
+    - lower body
+Reverse Lunge + Twist:
+    targeted groups:
+    - upper body
+    - lower body
+    - cardio
+<x> Jumping Jack + <y> Pop Squat:
+  targeted groups:
+    - upper body
+    - lower body
+    - cardio
+  random_reps:
+    x:
+      min: 2
+      max: 4
+      multiple: 1
+    y:
+      min: 1
+      max: 2
+      multiple: 1

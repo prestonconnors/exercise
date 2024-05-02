@@ -1,0 +1,122 @@
+- length: 180.0
+  name: warmup
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - warmup
+- &id001
+  length: 44.0
+  name: In In Out Out Jumps
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - cardio
+- &id002
+  length: 44.0
+  name: Pushup / Beast / Break Dance
+  reel_or_short: false
+  targeted groups:
+  - upper body
+- &id003
+  length: 44.0
+  name: Tuck Jump
+  reel_or_short: true
+  targeted groups:
+  - lower body
+  - cardio
+- &id004
+  length: 44.0
+  name: Sumo Squat
+  reel_or_short: false
+  targeted groups:
+  - lower body
+- &id005
+  length: 44.0
+  name: Extended Plank
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+  - core
+- &id006
+  length: 44.0
+  name: Burpee
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+  - cardio
+- &id007
+  length: 44.0
+  name: 2 Jacks / Punching Knee Drives
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+  - core
+- &id008
+  length: 44.0
+  name: One Leg Glute Bridge / Fly
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+  - core
+- &id009
+  length: 44.0
+  name: Side To Side Shuffle
+  reel_or_short: false
+  targeted groups:
+  - cardio
+- &id010
+  length: 44.0
+  name: Cherry Pickers
+  reel_or_short: false
+  targeted groups:
+  - core
+- &id011
+  length: 60
+  name: rest
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- *id001
+- *id002
+- *id003
+- *id004
+- *id005
+- *id006
+- *id007
+- *id008
+- *id009
+- *id010
+- *id011
+- *id001
+- *id002
+- *id003
+- *id004
+- *id005
+- *id006
+- *id007
+- *id008
+- *id009
+- *id010
+- length: 180.0
+  name: cool down
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - cool down

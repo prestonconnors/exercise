@@ -1,0 +1,65 @@
+Warm Up,180
+Rest + Ready For Stack 1,30
+Pistol Squat To Calf Raise Right Leg,30
+Rest,30
+Pistol Squat To Calf Raise Left Leg,30
+3 x Skaters / 2 x Jacks,30
+Rest,30
+Pistol Squat To Calf Raise Right Leg,30
+3 x Skaters / 2 x Jacks,30
+Push Up / Leg Extension,30
+Rest,30
+Pistol Squat To Calf Raise Left Leg,30
+3 x Skaters / 2 x Jacks,30
+Push Up / Leg Extension,30
+Squat Kicks,30
+Rest,30
+Pistol Squat To Calf Raise Right Leg,30
+3 x Skaters / 2 x Jacks,30
+Push Up / Leg Extension,30
+Squat Kicks,30
+Front Lunge + Chop,30
+Rest,30
+Pistol Squat To Calf Raise Left Leg,30
+3 x Skaters / 2 x Jacks,30
+Push Up / Leg Extension,30
+Squat Kicks,30
+Front Lunge + Chop,30
+Crunch + Leg Drop,30
+Rest + Ready For Stack 2,30
+Bicep Curl + Arnold Press,30
+Rest,30
+Bicep Curl + Arnold Press,30
+Sumo Squat + Crane,30
+Rest,30
+Bicep Curl + Arnold Press,30
+Sumo Squat + Crane,30
+Low Squat Jacks,30
+Rest,30
+Bicep Curl + Arnold Press,30
+Sumo Squat + Crane,30
+Low Squat Jacks,30
+Curtsy Curls,30
+Rest,30
+Bicep Curl + Arnold Press,30
+Sumo Squat + Crane,30
+Low Squat Jacks,30
+Curtsy Curls,30
+Tricep Extension + Balance,30
+Rest,30
+Situp + Arm Raise,30
+Rest,60
+Situp + Arm Raise,30
+Tricep Extension + Balance,30
+Curtsy Curls,30
+Low Squat Jacks,30
+Sumo Squat + Crane,30
+Bicep Curl + Arnold Press,30
+Crunch + Leg Drop,30
+Front Lunge + Chop,30
+Squat Kicks,30
+Push Up / Leg Extension,30
+3 x Skaters / 2 x Jacks,30
+Pistol Squat To Calf Raise Left Leg,15
+Pistol Squat To Calf Raise Right Leg,15
+Cool Down,180

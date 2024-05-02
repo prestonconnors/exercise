@@ -1,0 +1,118 @@
+- length: 180.0
+  name: warmup
+  position: all
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - warmup
+- &id001
+  Fast Feet / Burpee:
+    targeted groups:
+    - lower body
+    - upper body
+    - cardio
+  length: 44.0
+  name: Squat / Knee To Elbow
+  targeted groups:
+  - lower body
+  - core
+- &id002
+  length: 44.0
+  name: 2 Rows / One Pushup
+  targeted groups:
+  - upper body
+  - core
+- &id003
+  length: 44.0
+  name: Pop Squats
+  targeted groups:
+  - lower body
+  - cardio
+- &id004
+  length: 44.0
+  name: Lateral Lunge / Reverse Lunge
+  targeted groups:
+  - lower body
+- &id005
+  length: 44.0
+  name: Side Jacks
+  targeted groups:
+  - lower body
+  - upper body
+  - cardio
+- &id006
+  length: 44.0
+  name: Butt Kicks
+  targeted groups:
+  - cardio
+- &id007
+  length: 44.0
+  name: Broad Jump / Shuffle Back
+  targeted groups:
+  - upper body
+  - lower body
+  - cardio
+- &id008
+  length: 44.0
+  name: Extended Plank Walk Out
+  targeted groups:
+  - lower body
+  - upper body
+  - cardio
+  - core
+- &id009
+  length: 44.0
+  name: Punch Over / Unders
+  targeted groups:
+  - upper body
+  - cardio
+- &id010
+  length: 44.0
+  name: 8 Mountain Climbers / Hop Up
+  targeted groups:
+  - cardio
+  - lower body
+  - upper body
+  - core
+- &id011
+  length: 60
+  name: rest
+  position: all
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- *id001
+- *id002
+- *id003
+- *id004
+- *id005
+- *id006
+- *id007
+- *id008
+- *id009
+- *id010
+- *id011
+- *id001
+- *id002
+- *id003
+- *id004
+- *id005
+- *id006
+- *id007
+- *id008
+- *id009
+- *id010
+- length: 180.0
+  name: cool down
+  position: all
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - cool down

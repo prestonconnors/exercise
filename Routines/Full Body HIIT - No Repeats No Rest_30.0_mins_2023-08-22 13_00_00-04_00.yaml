@@ -1,0 +1,166 @@
+- length: 180.0
+  name: warmup
+  position: all
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - warmup
+- length: 48.0
+  name: Lunge + Knee Drive
+  targeted groups:
+  - lower body
+  - core
+- length: 48.0
+  name: Burpee + 2 Star Jumps
+  targeted groups:
+  - lower body
+  - upper body
+  - cardio
+  - core
+- length: 48.0
+  name: Power Skips
+  targeted groups:
+  - lower body
+  - cardio
+- length: 48.0
+  name: 3 Skaters / 6 High Knees
+  targeted groups:
+  - lower body
+  - cardio
+- length: 48.0
+  name: Pushup / Beast / Break Dance
+  targeted groups:
+  - upper body
+  - core
+- length: 48.0
+  name: Jump Squat
+  targeted groups:
+  - lower body
+  - cardio
+- length: 48.0
+  name: Fly To Situp
+  targeted groups:
+  - lower body
+  - upper body
+- length: 48.0
+  name: Frog Stand
+  targeted groups:
+  - upper body
+  - core
+- length: 48.0
+  name: Extended Plank Walk Out
+  targeted groups:
+  - lower body
+  - upper body
+  - cardio
+  - core
+- length: 48.0
+  name: Wood Chops
+  targeted groups:
+  - core
+- length: 48.0
+  name: Single Leg Romanian Deadlift
+  targeted groups:
+  - lower body
+- length: 48.0
+  name: Twist / Punch
+  targeted groups:
+  - upper body
+  - cardio
+- length: 48.0
+  name: Euro Step
+  targeted groups:
+  - lower body
+  - upper body
+  - cardio
+  - core
+- length: 48.0
+  name: Mountain Climber
+  targeted groups:
+  - lower body
+  - upper body
+  - core
+- length: 48.0
+  name: Triceps Dips
+  targeted groups:
+  - upper body
+- length: 48.0
+  name: Run
+  targeted groups:
+  - cardio
+- length: 48.0
+  name: Bear Crawl
+  targeted groups:
+  - lower body
+  - upper body
+  - core
+- length: 48.0
+  name: Shoulder Taps
+  targeted groups:
+  - core
+  - upper body
+- length: 48.0
+  name: Pop Squats
+  targeted groups:
+  - lower body
+  - cardio
+- length: 48.0
+  name: Superman
+  targeted groups:
+  - core
+- length: 48.0
+  name: Jumping Rope
+  targeted groups:
+  - lower body
+  - cardio
+- length: 48.0
+  name: 3 Jacks / 1 Air Jack
+  targeted groups:
+  - lower body
+  - upper body
+  - cardio
+- length: 48.0
+  name: Fast Feet
+  targeted groups:
+  - cardio
+- length: 48.0
+  name: Stiff-Leg Ankle Hop
+  targeted groups:
+  - lower body
+- length: 48.0
+  name: 3 Curls / 3 Kick Backs
+  targeted groups:
+  - upper body
+- length: 48.0
+  name: Carioca
+  targeted groups:
+  - lower body
+  - cardio
+- length: 48.0
+  name: Hopscotch
+  targeted groups:
+  - lower body
+  - core
+- length: 48.0
+  name: Piston Press
+  targeted groups:
+  - upper body
+- length: 48.0
+  name: Butt Kicks
+  targeted groups:
+  - cardio
+- length: 48.0
+  name: Bird Dog
+  targeted groups:
+  - core
+- length: 180.0
+  name: cool down
+  position: all
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - cool down

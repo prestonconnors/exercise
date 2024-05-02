@@ -1,0 +1,276 @@
+- length: 180.0
+  name: warmup
+  position: all
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - warmup
+- &id001
+  length: 20.208333333333332
+  name: Hollow Body Hold
+  targeted groups:
+  - core
+- &id002
+  length: 10
+  name: rest
+  position: all
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- &id003
+  length: 20.208333333333332
+  name: Tempo Situp / Arm Raise
+  targeted groups:
+  - core
+- &id004
+  length: 10
+  name: rest
+  position: all
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- *id001
+- *id002
+- *id003
+- *id004
+- *id001
+- *id002
+- *id003
+- *id004
+- *id001
+- *id002
+- *id003
+- *id004
+- &id005
+  length: 20.208333333333332
+  name: Plank + Knee Taps
+  targeted groups:
+  - lower body
+  - upper body
+  - core
+- &id006
+  length: 10
+  name: rest
+  position: all
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- &id007
+  length: 20.208333333333332
+  name: Single Leg Glute Bridge
+  targeted groups:
+  - core
+- &id008
+  length: 10
+  name: rest
+  position: all
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- *id005
+- *id006
+- *id007
+- *id008
+- *id005
+- *id006
+- *id007
+- *id008
+- *id005
+- *id006
+- *id007
+- *id008
+- &id009
+  length: 20.208333333333332
+  name: Pyramid Tricep Extension
+  targeted groups:
+  - lower body
+  - upper body
+- &id010
+  length: 10
+  name: rest
+  position: all
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- &id011
+  length: 20.208333333333332
+  name: Crab Walk
+  targeted groups:
+  - lower body
+  - upper body
+  - core
+- &id012
+  length: 10
+  name: rest
+  position: all
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- *id009
+- *id010
+- *id011
+- *id012
+- *id009
+- *id010
+- *id011
+- *id012
+- *id009
+- *id010
+- *id011
+- *id012
+- &id013
+  length: 20.208333333333332
+  name: Wide Pushup
+  targeted groups:
+  - upper body
+  - core
+- &id014
+  length: 10
+  name: rest
+  position: all
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- &id015
+  length: 20.208333333333332
+  name: Air Squat
+  targeted groups:
+  - lower body
+- &id016
+  length: 10
+  name: rest
+  position: all
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- *id013
+- *id014
+- *id015
+- *id016
+- *id013
+- *id014
+- *id015
+- *id016
+- *id013
+- *id014
+- *id015
+- *id016
+- &id017
+  length: 20.208333333333332
+  name: Jumping Rope
+  targeted groups:
+  - lower body
+  - cardio
+- &id018
+  length: 10
+  name: rest
+  position: all
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- &id019
+  length: 20.208333333333332
+  name: High Knees
+  targeted groups:
+  - cardio
+- &id020
+  length: 10
+  name: rest
+  position: all
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- *id017
+- *id018
+- *id019
+- *id020
+- *id017
+- *id018
+- *id019
+- *id020
+- *id017
+- *id018
+- *id019
+- *id020
+- &id021
+  length: 20.208333333333332
+  name: Alternating Front Lunge
+  targeted groups:
+  - lower body
+- &id022
+  length: 10
+  name: rest
+  position: all
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- &id023
+  length: 20.208333333333332
+  name: Tabletop Crunches
+  targeted groups:
+  - core
+- &id024
+  length: 10
+  name: rest
+  position: all
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- *id021
+- *id022
+- *id023
+- *id024
+- *id021
+- *id022
+- *id023
+- *id024
+- *id021
+- *id022
+- *id023
+- length: 180.0
+  name: cool down
+  position: all
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - cool down

@@ -1,0 +1,305 @@
+- length: 180.0
+  name: warmup
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - warmup
+- &id001
+  length: 20.208333333333332
+  name: No Jump Squat Jacks
+  reel_or_short: false
+  targeted groups:
+  - lower body
+- &id002
+  length: 10
+  name: rest
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- &id003
+  length: 20.208333333333332
+  name: Prisoner Lunge
+  reel_or_short: false
+  targeted groups:
+  - lower body
+- &id004
+  length: 10
+  name: rest
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- *id001
+- *id002
+- *id003
+- *id004
+- *id001
+- *id002
+- *id003
+- *id004
+- *id001
+- *id002
+- *id003
+- *id004
+- &id005
+  length: 20.208333333333332
+  name: One Leg Glute Bridge / Fly
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+  - core
+- &id006
+  length: 10
+  name: rest
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- &id007
+  length: 20.208333333333332
+  name: Touchdowns
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - cardio
+- &id008
+  length: 10
+  name: rest
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- *id005
+- *id006
+- *id007
+- *id008
+- *id005
+- *id006
+- *id007
+- *id008
+- *id005
+- *id006
+- *id007
+- *id008
+- &id009
+  length: 20.208333333333332
+  name: Plank + Down Dog
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+- &id010
+  length: 10
+  name: rest
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- &id011
+  length: 20.208333333333332
+  name: Heel Walk
+  reel_or_short: false
+  targeted groups:
+  - core
+- &id012
+  length: 10
+  name: rest
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- *id009
+- *id010
+- *id011
+- *id012
+- *id009
+- *id010
+- *id011
+- *id012
+- *id009
+- *id010
+- *id011
+- *id012
+- &id013
+  length: 20.208333333333332
+  name: Slow Climbers
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+  - core
+- &id014
+  length: 10
+  name: rest
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- &id015
+  length: 20.208333333333332
+  name: Half Burpee / Knee Drive
+  reel_or_short: false
+  targeted groups:
+  - upper body
+  - lower body
+  - cardio
+- &id016
+  length: 10
+  name: rest
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- *id013
+- *id014
+- *id015
+- *id016
+- *id013
+- *id014
+- *id015
+- *id016
+- *id013
+- *id014
+- *id015
+- *id016
+- &id017
+  length: 20.208333333333332
+  name: Lift Chop Center Drop
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+- &id018
+  length: 10
+  name: rest
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- &id019
+  length: 20.208333333333332
+  name: Hollow Body Hold
+  reel_or_short: true
+  targeted groups:
+  - core
+- &id020
+  length: 10
+  name: rest
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- *id017
+- *id018
+- *id019
+- *id020
+- *id017
+- *id018
+- *id019
+- *id020
+- *id017
+- *id018
+- *id019
+- *id020
+- &id021
+  length: 20.208333333333332
+  name: 4 Star Jumps / 8 High Knees
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - cardio
+- &id022
+  length: 10
+  name: rest
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- &id023
+  length: 20.208333333333332
+  name: Tempo Situp / Arm Raise
+  reel_or_short: false
+  targeted groups:
+  - core
+- &id024
+  length: 10
+  name: rest
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- *id021
+- *id022
+- *id023
+- *id024
+- *id021
+- *id022
+- *id023
+- *id024
+- *id021
+- *id022
+- *id023
+- length: 180.0
+  name: cool down
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - cool down

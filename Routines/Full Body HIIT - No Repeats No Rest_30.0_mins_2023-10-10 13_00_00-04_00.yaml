@@ -1,0 +1,171 @@
+- length: 180.0
+  name: warmup
+  position: all
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - warmup
+- length: 48.0
+  name: Hold Squat / Calf Raise
+  targeted groups:
+  - lower body
+- length: 48.0
+  name: Pushup / Beast / Break Dance
+  targeted groups:
+  - upper body
+  - core
+- length: 48.0
+  name: Seal Jacks
+  targeted groups:
+  - lower body
+  - cardio
+- length: 48.0
+  name: Burpee + Lunge Scissor Jumps
+  targeted groups:
+  - lower body
+  - cardio
+- length: 48.0
+  name: Twist / Punch
+  targeted groups:
+  - upper body
+  - cardio
+- length: 48.0
+  name: 8 Mountain Climbers / Hop Up
+  targeted groups:
+  - cardio
+  - lower body
+  - upper body
+  - core
+- length: 48.0
+  name: Extended Plank Walk Out
+  targeted groups:
+  - lower body
+  - upper body
+  - cardio
+  - core
+- length: 48.0
+  name: Superman / Lat Pull
+  targeted groups:
+  - lower body
+  - upper body
+  - core
+- length: 48.0
+  name: 3 Skaters / 6 High Knees
+  targeted groups:
+  - lower body
+  - cardio
+- length: 48.0
+  name: Butterfly Crunches
+  targeted groups:
+  - core
+- length: 48.0
+  name: Knee Drives
+  targeted groups:
+  - lower body
+  - core
+- length: 48.0
+  name: One Leg Glute Bridge / Fly
+  targeted groups:
+  - lower body
+  - upper body
+  - core
+- length: 48.0
+  name: Carioca
+  targeted groups:
+  - lower body
+  - cardio
+- length: 48.0
+  name: Euro Step
+  targeted groups:
+  - lower body
+  - upper body
+  - cardio
+  - core
+- length: 48.0
+  name: Body Saw
+  targeted groups:
+  - upper body
+  - core
+- length: 48.0
+  name: Touchdowns
+  targeted groups:
+  - lower body
+  - cardio
+- length: 48.0
+  name: Broad Jump / Shuffle Back
+  targeted groups:
+  - upper body
+  - lower body
+  - cardio
+- length: 48.0
+  name: Piston Press
+  targeted groups:
+  - upper body
+- length: 48.0
+  name: Butt Kicks
+  targeted groups:
+  - cardio
+- length: 48.0
+  name: Reverse Crunch
+  targeted groups:
+  - core
+- length: 48.0
+  name: Surrenders
+  targeted groups:
+  - lower body
+- length: 48.0
+  name: Triceps Dips
+  targeted groups:
+  - upper body
+- length: 48.0
+  name: Fast Feet
+  targeted groups:
+  - cardio
+- length: 48.0
+  name: Pop Squats
+  targeted groups:
+  - lower body
+  - cardio
+- length: 48.0
+  name: Inchworm
+  targeted groups:
+  - lower body
+  - upper body
+  - core
+- length: 48.0
+  name: Power Slams
+  targeted groups:
+  - lower body
+  - upper body
+  - cardio
+  - core
+- length: 48.0
+  name: Chair Pose
+  targeted groups:
+  - lower body
+  - core
+- length: 48.0
+  name: Lift Chop Center Drop
+  targeted groups:
+  - core
+  - lower body
+  - upper body
+- length: 48.0
+  name: Run
+  targeted groups:
+  - cardio
+- length: 48.0
+  name: Flutter Kick
+  targeted groups:
+  - core
+- length: 180.0
+  name: cool down
+  position: all
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - cool down

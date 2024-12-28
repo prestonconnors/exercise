@@ -1,0 +1,95 @@
+- length: 0.0
+  name: warmup
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - warmup
+- length: 60.0
+  name: Lying Butterfly
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: open book
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: quad
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: Cossack
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: Mermaid
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: runners lunge
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: supine hamstring stretch
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: Deep Squat
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: seated knee to chest
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: Shoulder Bridge
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: high cobra
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: neck
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: Bodyweight Frog Hip Thrust
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: Upper back
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: Downward Dog
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 0.0
+  name: cool down
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - cool down

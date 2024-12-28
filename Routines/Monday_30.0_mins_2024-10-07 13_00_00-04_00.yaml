@@ -1,0 +1,122 @@
+- length: 45.0
+  name: warmup
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - warmup
+- &id001
+  length: 53.0
+  name: donkey kick to fire hydrant
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - core
+- &id002
+  length: 53.0
+  name: Half Burpee / Knee Drive
+  reel_or_short: false
+  targeted groups:
+  - upper body
+  - lower body
+  - cardio
+- &id003
+  length: 53.0
+  name: Plyo Side Lunge
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - cardio
+- &id004
+  length: 53.0
+  name: Standing Star Crunch
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+  - core
+- &id005
+  length: 53.0
+  name: Extended Plank
+  reel_or_short: true
+  targeted groups:
+  - lower body
+  - upper body
+  - core
+- &id006
+  length: 53.0
+  name: Split Squat + 3 Hops + Switch
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - cardio
+- &id007
+  length: 53.0
+  name: Hamstring Curls
+  reel_or_short: false
+  targeted groups:
+  - lower body
+- &id008
+  length: 53.0
+  name: Diamond Pushup
+  reel_or_short: false
+  targeted groups:
+  - upper body
+- &id009
+  length: 53.0
+  name: Small Skaters
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - cardio
+- &id010
+  length: 53.0
+  name: Oblique Heel Taps
+  reel_or_short: false
+  targeted groups:
+  - core
+- &id011
+  length: 60
+  name: rest
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- *id001
+- *id002
+- *id003
+- *id004
+- *id005
+- *id006
+- *id007
+- *id008
+- *id009
+- *id010
+- *id011
+- *id001
+- *id002
+- *id003
+- *id004
+- *id005
+- *id006
+- *id007
+- *id008
+- *id009
+- *id010
+- length: 45.0
+  name: cool down
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - cool down

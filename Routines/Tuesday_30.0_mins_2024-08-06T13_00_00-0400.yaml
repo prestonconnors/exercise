@@ -1,0 +1,201 @@
+- length: 45.0
+  name: warmup
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - warmup
+- length: 57.0
+  name: Squat / <x> Pulses
+  random reps:
+    x:
+      max: 6
+      min: 1
+      multiple: 1
+  reel_or_short: false
+  targeted groups:
+  - lower body
+- length: 57.0
+  name: Pushup Burpee
+  reel_or_short: false
+  targeted groups:
+  - upper body
+  - lower body
+- length: 57.0
+  name: Plank Jack / Shoulder Tap
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+  - cardio
+- length: 57.0
+  name: Rainbow Thrusters
+  reel_or_short: false
+  targeted groups:
+  - lower body
+- length: 57.0
+  name: One Leg Glute Bridge / Fly
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+  - core
+- length: 57.0
+  name: In In Out Out Jumps
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - cardio
+- length: 57.0
+  name: Static Lunge
+  reel_or_short: false
+  targeted groups:
+  - lower body
+- length: 57.0
+  name: Lift Chop Center Drop
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+- length: 57.0
+  name: Press Jacks
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+  - cardio
+- length: 57.0
+  name: Dead Bug
+  reel_or_short: false
+  targeted groups:
+  - core
+- length: 57.0
+  name: Donkey Kick
+  reel_or_short: false
+  targeted groups:
+  - lower body
+- length: 57.0
+  name: Inchworm
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+- length: 57.0
+  name: Touchdowns
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - cardio
+- length: 57.0
+  name: Euro Step
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+  - cardio
+- length: 57.0
+  name: Punch Over / Unders
+  reel_or_short: false
+  targeted groups:
+  - upper body
+  - cardio
+- length: 57.0
+  name: Tuck Jump
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - cardio
+- length: 57.0
+  name: Knee Drive To Elbow
+  reel_or_short: false
+  targeted groups:
+  - cardio
+  - lower body
+- length: 57.0
+  name: Slow Climbers
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+  - core
+- length: 57.0
+  name: Small Skaters
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - cardio
+- length: 57.0
+  name: Ukrainian Twists
+  reel_or_short: false
+  targeted groups:
+  - core
+- length: 57.0
+  name: Surrenders
+  reel_or_short: false
+  targeted groups:
+  - lower body
+- length: 57.0
+  name: Curtsy + Reach Up + Down
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+- length: 57.0
+  name: Carioca
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - cardio
+- length: 57.0
+  name: Chair Pose
+  reel_or_short: false
+  targeted groups:
+  - lower body
+- length: 57.0
+  name: Frog Stand
+  reel_or_short: false
+  targeted groups:
+  - upper body
+  - core
+- length: 57.0
+  name: High Knees
+  reel_or_short: false
+  targeted groups:
+  - cardio
+- length: 57.0
+  name: Pop Squats
+  reel_or_short: true
+  targeted groups:
+  - lower body
+  - cardio
+- length: 57.0
+  name: Crab Walk
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+- length: 57.0
+  name: Power Slams
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+  - cardio
+- length: 57.0
+  name: Windshield Wiper
+  reel_or_short: false
+  targeted groups:
+  - core
+- length: 45.0
+  name: cool down
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - cool down

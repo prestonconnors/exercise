@@ -1,0 +1,95 @@
+- length: 0.0
+  name: warmup
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - warmup
+- length: 60.0
+  name: pigeon pose
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: neck roll
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: Upper back
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: runners lunge
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: cat / cow
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: Chest
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: Hamstring
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: Lying Twist
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: quad
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: seated side body
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: butterfly
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: Tricep
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: forearm
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: Figure Four
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: Shoulder
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 0.0
+  name: cool down
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - cool down

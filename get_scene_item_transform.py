@@ -43,7 +43,11 @@ def main():
 
     input_settings["inputName"] = args.random_effect_name
     input_settings = obsws.call(obswebsocket.requests.GetInputSettings(**input_settings)).__dict__
-    local_file = os.path.basename(input_settings["datain"]["inputSettings"]["local_file"])
+    print(input_settings)
+    if "local_file" in input_settings["datain"]["inputSettings"]:
+        local_file = os.path.basename(input_settings["datain"]["inputSettings"])
+    elif "file" in input_settings["datain"]["inputSettings"]:
+        local_file = os.path.basename(input_settings["datain"]["inputSettings"]["file"])
     output = obsws.call(obswebsocket.requests.GetSceneItemTransform(**scene_item)).__dict__
     time.sleep(1)
     print(yaml.dump(output, default_flow_style=False))

@@ -1,0 +1,95 @@
+- length: 0.0
+  name: warmup
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - warmup
+- length: 60.0
+  name: Figure Four
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: neck roll
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: Lying Twist
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: wrist
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: open book
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: Shoulder
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: scropion
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: shavasana
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: Bodyweight Frog Hip Thrust
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: seated side body
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: butterfly
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: Puppy Dog Stretch
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: happy baby / stradle
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: forearm
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: cat / cow
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 0.0
+  name: cool down
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - cool down

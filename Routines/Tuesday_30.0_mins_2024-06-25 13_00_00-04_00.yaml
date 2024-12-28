@@ -1,0 +1,231 @@
+- length: 90.0
+  name: warmup
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - warmup
+- length: 54.0
+  name: Small Skaters
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - cardio
+- length: 54.0
+  name: <x> Jacks / <y> Air Jacks
+  random reps:
+    x:
+      max: 8
+      min: 1
+      multiple: 1
+    y:
+      max: 3
+      min: 1
+      multiple: 1
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+  - cardio
+- length: 54.0
+  name: Single Leg Jump Squat
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - cardio
+- length: 54.0
+  name: Surrenders
+  reel_or_short: false
+  targeted groups:
+  - lower body
+- length: 54.0
+  name: Spiderman Pushup
+  reel_or_short: false
+  targeted groups:
+  - upper body
+- length: 54.0
+  name: Fast Feet + Side Steps
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - cardio
+- length: 54.0
+  name: Front Lunge + Chop
+  reel_or_short: false
+  targeted groups:
+  - lower body
+- length: 54.0
+  name: Curtsy + Reach Up + Down
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+- length: 54.0
+  name: Run
+  reel_or_short: false
+  targeted groups:
+  - cardio
+- length: 54.0
+  name: x-ups
+  reel_or_short: false
+  targeted groups:
+  - core
+- length: 54.0
+  name: <x> Star Jumps / <y> High Knees
+  random reps:
+    x:
+      max: 4
+      min: 1
+      multiple: 1
+    y:
+      max: 8
+      min: 1
+      multiple: 2
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - cardio
+- length: 54.0
+  name: Body Saw
+  reel_or_short: false
+  targeted groups:
+  - upper body
+  - core
+- length: 54.0
+  name: Butt Kicks
+  reel_or_short: false
+  targeted groups:
+  - cardio
+- length: 54.0
+  name: Touchdowns
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - cardio
+- length: 54.0
+  name: <x> Curls / <y> Kick Backs
+  random reps:
+    x:
+      max: 6
+      min: 2
+      multiple: 1
+    y:
+      max: 6
+      min: 2
+      multiple: 1
+  reel_or_short: false
+  targeted groups:
+  - upper body
+- length: 54.0
+  name: Jumping Rope
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - cardio
+- length: 54.0
+  name: Lateral Bear Walk To Burpee
+  reel_or_short: false
+  targeted groups:
+  - upper body
+  - lower body
+  - cardio
+- length: 54.0
+  name: Beast + Knee Taps / Break Dance
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+  - core
+- length: 54.0
+  name: Carioca
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - cardio
+- length: 54.0
+  name: Situp
+  reel_or_short: false
+  targeted groups:
+  - core
+- length: 54.0
+  name: Plank Hops
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+- length: 54.0
+  name: Inchworm
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+- length: 54.0
+  name: Power Slams
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+  - cardio
+- length: 54.0
+  name: Slow Climbers
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+  - core
+- length: 54.0
+  name: <x> Rows / <y> Pushups
+  random reps:
+    x:
+      max: 6
+      min: 2
+      multiple: 2
+    y:
+      max: 3
+      min: 1
+      multiple: 1
+  reel_or_short: false
+  targeted groups:
+  - upper body
+- length: 54.0
+  name: Pop Squats
+  reel_or_short: true
+  targeted groups:
+  - lower body
+  - cardio
+- length: 54.0
+  name: Euro Step
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+  - cardio
+- length: 54.0
+  name: Triceps Dips
+  reel_or_short: false
+  targeted groups:
+  - upper body
+- length: 54.0
+  name: Punch Over / Unders
+  reel_or_short: false
+  targeted groups:
+  - upper body
+  - cardio
+- length: 54.0
+  name: Pilates Hundreds
+  reel_or_short: false
+  targeted groups:
+  - core
+- length: 90.0
+  name: cool down
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - cool down

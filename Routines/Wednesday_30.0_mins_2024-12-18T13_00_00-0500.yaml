@@ -1,0 +1,340 @@
+- length: 45.0
+  name: warmup
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - warmup
+- length: 142
+  name: plank for 2:22
+  reel_or_short: false
+  targeted groups:
+  - plank 1
+- length: 10
+  name: transition
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- length: 63
+  name: Seal
+  reel_or_short: false
+  targeted groups:
+  - core
+- length: 10
+  name: transition
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- length: 63
+  name: Bicycle + Toe Tap
+  reel_or_short: false
+  targeted groups:
+  - core
+- length: 10
+  name: transition
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- length: 63
+  name: Twisting Situp
+  reel_or_short: false
+  targeted groups:
+  - core
+- length: 10
+  name: transition
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- length: 63
+  name: Single Leg Straight
+  reel_or_short: false
+  targeted groups:
+  - core
+- length: 10
+  name: transition
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- length: 63
+  name: Ab Hold + Knee In
+  reel_or_short: false
+  targeted groups:
+  - core
+- length: 10
+  name: transition
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- length: 63
+  name: Windshield Wiper
+  reel_or_short: false
+  targeted groups:
+  - core
+- length: 10
+  name: transition
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- length: 63
+  name: Bird Dog
+  reel_or_short: false
+  targeted groups:
+  - core
+- length: 10
+  name: transition
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- length: 63
+  name: Jack Knife
+  reel_or_short: false
+  targeted groups:
+  - core
+- length: 10
+  name: transition
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- length: 63
+  name: Criss Cross
+  reel_or_short: false
+  targeted groups:
+  - core
+- length: 10
+  name: transition
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- length: 63
+  name: Side Pushup
+  reel_or_short: false
+  targeted groups:
+  - core
+- length: 10
+  name: transition
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- length: 63
+  name: Pilates Hundreds
+  reel_or_short: false
+  targeted groups:
+  - core
+- length: 10
+  name: transition
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- length: 63
+  name: Scissor Crossovers
+  reel_or_short: false
+  targeted groups:
+  - core
+- length: 10
+  name: transition
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- length: 63
+  name: Lean Back Kicks
+  reel_or_short: false
+  targeted groups:
+  - core
+- length: 10
+  name: transition
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- length: 63
+  name: Butterfly Crunches + X-Ups
+  reel_or_short: false
+  targeted groups:
+  - core
+- length: 10
+  name: transition
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- length: 63
+  name: Bridge March
+  reel_or_short: false
+  targeted groups:
+  - core
+- length: 10
+  name: transition
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- length: 63
+  name: Lying Straight-Leg Raise
+  reel_or_short: false
+  targeted groups:
+  - core
+- length: 10
+  name: transition
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- length: 63
+  name: Roll Up
+  reel_or_short: false
+  targeted groups:
+  - core
+- length: 10
+  name: transition
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- length: 63
+  name: Dead Bug
+  reel_or_short: false
+  targeted groups:
+  - core
+- length: 10
+  name: transition
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- length: 63
+  name: x-ups
+  reel_or_short: false
+  targeted groups:
+  - core
+- length: 10
+  name: transition
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- length: 63
+  name: Rolling Like A Ball
+  reel_or_short: false
+  targeted groups:
+  - core
+- length: 10
+  name: transition
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- length: 143
+  name: plank for 2:23
+  reel_or_short: false
+  targeted groups:
+  - plank 2
+- length: 45.0
+  name: cool down
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - cool down

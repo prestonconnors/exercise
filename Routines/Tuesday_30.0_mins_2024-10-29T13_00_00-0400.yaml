@@ -1,0 +1,212 @@
+- length: 45.0
+  name: warmup
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - warmup
+- length: 57.0
+  name: Traveling Squats
+  reel_or_short: false
+  targeted groups:
+  - lower body
+- length: 57.0
+  name: Walk Out / Pushup Ladder
+  reel_or_short: false
+  targeted groups:
+  - upper body
+- length: 57.0
+  name: Small Skaters
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - cardio
+- Fast Feet / Burpee:
+    targeted groups:
+    - lower body
+    - upper body
+    - cardio
+  length: 57.0
+  name: Squat / Knee To Elbow
+  reel_or_short: false
+  targeted groups:
+  - lower body
+- length: 57.0
+  name: Reverse Plank + Leg Lift
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+  - core
+- length: 57.0
+  name: <x> Mountain Climbers / Hop Up
+  random reps:
+    x:
+      max: 8
+      min: 2
+      multiple: 2
+  reel_or_short: false
+  targeted groups:
+  - cardio
+  - lower body
+  - upper body
+- length: 57.0
+  name: Plyo Lunge
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - cardio
+- length: 57.0
+  name: Front / Side Shoulder Raise
+  reel_or_short: false
+  targeted groups:
+  - upper body
+- length: 57.0
+  name: Punch Over / Unders
+  reel_or_short: false
+  targeted groups:
+  - upper body
+  - cardio
+- length: 57.0
+  name: Butterfly Crunches + X-Ups
+  reel_or_short: false
+  targeted groups:
+  - core
+- length: 57.0
+  name: Burpee + Double Foot Jumps
+  reel_or_short: false
+  targeted groups:
+  - upper body
+  - lower body
+  - cardio
+- length: 57.0
+  name: Bear Crawl
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+- length: 57.0
+  name: Seal Jacks
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - cardio
+- length: 57.0
+  name: Sideplank Hip Dip + Thread Needle
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - core
+- length: 57.0
+  name: Piston Press
+  reel_or_short: false
+  targeted groups:
+  - upper body
+- length: 57.0
+  name: Fast Feet
+  reel_or_short: false
+  targeted groups:
+  - cardio
+- length: 57.0
+  name: A Skips
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - cardio
+- length: 57.0
+  name: Tricep Dips
+  reel_or_short: true
+  targeted groups:
+  - upper body
+- length: 57.0
+  name: Run
+  reel_or_short: false
+  targeted groups:
+  - cardio
+- length: 57.0
+  name: Neck Pull
+  reel_or_short: false
+  targeted groups:
+  - core
+- length: 57.0
+  name: Ball Slams
+  reel_or_short: false
+  targeted groups:
+  - lower body
+- length: 57.0
+  name: Curtsy + Crunch
+  reel_or_short: false
+  targeted groups:
+  - upper body
+  - lower body
+  - cardio
+- length: 57.0
+  name: Butt Kicks
+  reel_or_short: false
+  targeted groups:
+  - cardio
+- length: 57.0
+  name: Broad Jump / Shuffle Back
+  reel_or_short: false
+  targeted groups:
+  - upper body
+  - lower body
+  - cardio
+- length: 57.0
+  name: <x> Curls / <y> Kick Backs
+  random reps:
+    x:
+      max: 6
+      min: 2
+      multiple: 1
+    y:
+      max: 6
+      min: 2
+      multiple: 1
+  reel_or_short: false
+  targeted groups:
+  - upper body
+- length: 57.0
+  name: Standing Reach + Toe Tap
+  reel_or_short: false
+  targeted groups:
+  - upper body
+  - lower body
+  - cardio
+- length: 57.0
+  name: Lateral High Knees
+  reel_or_short: false
+  targeted groups:
+  - cardio
+  - lower body
+- length: 57.0
+  name: Euro Step
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+  - cardio
+- length: 57.0
+  name: Touchdowns
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - cardio
+- length: 57.0
+  name: Bird Dog
+  reel_or_short: false
+  targeted groups:
+  - core
+- length: 45.0
+  name: cool down
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - cool down

@@ -1,0 +1,120 @@
+- length: 180.0
+  name: warmup
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - warmup
+- &id001
+  length: 44.0
+  name: Touchdowns
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - cardio
+- &id002
+  length: 44.0
+  name: Bear Hold + Reach
+  reel_or_short: false
+  targeted groups:
+  - upper body
+  - core
+- &id003
+  length: 44.0
+  name: 180 Jump / Burpee
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - cardio
+- &id004
+  length: 44.0
+  name: Skater Squat
+  reel_or_short: true
+  targeted groups:
+  - lower body
+- &id005
+  length: 44.0
+  name: Cobra Pushup
+  reel_or_short: false
+  targeted groups:
+  - upper body
+- &id006
+  length: 44.0
+  name: High Knees
+  reel_or_short: false
+  targeted groups:
+  - cardio
+- &id007
+  length: 44.0
+  name: Touchdown / Tuck Jumps
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - cardio
+- &id008
+  length: 44.0
+  name: Plank + Butt Kicks
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+  - cardio
+  - core
+- &id009
+  length: 44.0
+  name: Carioca
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - cardio
+- &id010
+  length: 44.0
+  name: 3 Crunches / 4 Bicycles
+  reel_or_short: false
+  targeted groups:
+  - core
+- &id011
+  length: 60
+  name: rest
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- *id001
+- *id002
+- *id003
+- *id004
+- *id005
+- *id006
+- *id007
+- *id008
+- *id009
+- *id010
+- *id011
+- *id001
+- *id002
+- *id003
+- *id004
+- *id005
+- *id006
+- *id007
+- *id008
+- *id009
+- *id010
+- length: 180.0
+  name: cool down
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - cool down

@@ -1,0 +1,95 @@
+- length: 0.0
+  name: warmup
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - warmup
+- length: 60.0
+  name: Shoulder Bridge
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: Prone Y Raises
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: Single Leg Seated Pike
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: Chest
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: Outer Hips Pretzel
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: cat / cow
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: Lying Butterfly
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: quad
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: Lateral Lunge Rocks
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: child's pose
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: supine hamstring stretch
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: Bodyweight Frog Hip Thrust
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: 90 90
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: open book
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: forearm
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 0.0
+  name: cool down
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - cool down

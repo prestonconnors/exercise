@@ -1,0 +1,95 @@
+- length: 0.0
+  name: warmup
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - warmup
+- length: 60.0
+  name: neck
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: Upper back
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: Stradle Compression Into Squat
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: supine hamstring stretch
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: Single Leg Seated Pike
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: Downward Dog
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: scropion
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: Tricep
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: Chest
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: Lying Butterfly
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: Lateral Hold
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: forearm
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: Prone Y Raises
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: Mermaid
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: quad
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 0.0
+  name: cool down
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - cool down

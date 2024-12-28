@@ -1,0 +1,206 @@
+- length: 45.0
+  name: warmup
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - warmup
+- length: 57.0
+  name: Reach Up + Down
+  reel_or_short: false
+  targeted groups:
+  - lower body
+- length: 57.0
+  name: Row / Plank / Runners Lunge / Twist Open
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+- length: 57.0
+  name: <x> Jabs / <y> Jacks
+  random reps:
+    x:
+      max: 8
+      min: 2
+      multiple: 2
+    y:
+      max: 8
+      min: 2
+      multiple: 2
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+  - cardio
+- length: 57.0
+  name: Bent Leg Donkey Kick
+  reel_or_short: false
+  targeted groups:
+  - lower body
+- length: 57.0
+  name: Mountain Climbers
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+  - core
+- length: 57.0
+  name: High Knees
+  reel_or_short: false
+  targeted groups:
+  - cardio
+- length: 57.0
+  name: Knee Drives
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - core
+- length: 57.0
+  name: Hindu Pushup
+  reel_or_short: false
+  targeted groups:
+  - upper body
+- length: 57.0
+  name: <x> Scissor Jumps To Side Jump
+  random reps:
+    x:
+      max: 6
+      min: 2
+      multiple: 2
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - cardio
+- length: 57.0
+  name: Russian Twists / Tuck
+  reel_or_short: false
+  targeted groups:
+  - core
+- length: 57.0
+  name: Squat + Punch
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+- length: 57.0
+  name: Power Slams
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+  - cardio
+- length: 57.0
+  name: Curtsy + Crunch
+  reel_or_short: false
+  targeted groups:
+  - upper body
+  - lower body
+  - cardio
+- length: 57.0
+  name: Chair Pose / Burpee
+  reel_or_short: false
+  targeted groups:
+  - lower body
+- length: 57.0
+  name: Inchworm
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+- length: 57.0
+  name: Small Skaters
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - cardio
+- length: 57.0
+  name: Lift Chop Center Drop
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+- length: 57.0
+  name: Crab Walk
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+- length: 57.0
+  name: Touchdowns
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - cardio
+- length: 57.0
+  name: Glute Bridge
+  reel_or_short: false
+  targeted groups:
+  - core
+- length: 57.0
+  name: Traveling Squats
+  reel_or_short: false
+  targeted groups:
+  - lower body
+- length: 57.0
+  name: Shoulder Taps
+  reel_or_short: false
+  targeted groups:
+  - core
+  - upper body
+- length: 57.0
+  name: Run
+  reel_or_short: false
+  targeted groups:
+  - cardio
+- length: 57.0
+  name: Pyramid Tricep Extension
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+- length: 57.0
+  name: Bear Crawl
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+- length: 57.0
+  name: Carioca
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - cardio
+- length: 57.0
+  name: Hamstring Curls
+  reel_or_short: false
+  targeted groups:
+  - lower body
+- length: 57.0
+  name: Triceps Dips
+  reel_or_short: false
+  targeted groups:
+  - upper body
+- length: 57.0
+  name: Jumping Rope
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - cardio
+- length: 57.0
+  name: Lying Straight-Leg Raise
+  reel_or_short: true
+  targeted groups:
+  - core
+- length: 45.0
+  name: cool down
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - cool down

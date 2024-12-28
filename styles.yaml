@@ -1,8 +1,8 @@
-Full Body HIIT - 3 Rounds:
+Monday:
   percent_of_time:
-    warmup: .10
-    cool down: .10
-    conditioning: .80
+    warmup: .025
+    cool down: .025
+    conditioning: .95
   conditioning_blocks: 1
   repeat_conditioning_blocks: 3
   exercises_per_block:
@@ -19,6 +19,7 @@ Full Body HIIT - 3 Rounds:
   rest_time_after_block: 60
   rest_time_after_exercise: 0
   rest_name: "rest"
+  targeted groups limit: 999
   hashtags:
     - "#hiit"
     - "#cardio"
@@ -26,12 +27,13 @@ Full Body HIIT - 3 Rounds:
     - "#exercise"
   subject_positioning: "Far"
   thumbnail_text: "Full Body HIIT"
+  stream_title: "{length} MINUTE FULL BODY HIIT - 3 ROUNDS WORKOUT - NO EQUIPMENT, BODYWEIGHT EXERCISES ONLY!"
 
 Tuesday:
   percent_of_time:
-    warmup: .10
-    cool down: .10
-    conditioning: .80
+    warmup: .025
+    cool down: .025
+    conditioning: .95
   conditioning_blocks: 1
   repeat_conditioning_blocks: 0
   exercises_per_block:
@@ -68,6 +70,7 @@ Tuesday:
   rest_time_after_block: 0
   rest_time_after_exercise: 0
   rest_name: "rest"
+  targeted groups limit: 999
   hashtags:
     - "#hiit"
     - "#cardio"
@@ -75,21 +78,24 @@ Tuesday:
     - "#exercise"
   subject_positioning: "Far"
   thumbnail_text: "Non Stop HIIT"
+  stream_title: "{length} MINUTE FULL BODY HIIT - NO REPEATS NO REST WORKOUT - NO EQUIPMENT, BODYWEIGHT EXERCISES ONLY!"
 
-Tabata:
+
+Thursday:
   percent_of_time:
-    warmup: .10
-    cool down: .10
-    conditioning: .80
-  conditioning_blocks: 6
+    warmup: .025
+    cool down: .025
+    conditioning: .95
+  conditioning_blocks: 7
   repeat_conditioning_blocks: 4
   exercises_per_block:
     - any
     - any
-  #exercise_length: 20
+  exercise_length: 20
   rest_time_after_block: 0
   rest_time_after_exercise: 10
   rest_name: "rest"
+  targeted groups limit: 999
   hashtags:
     - "#tabata"
     - "#hiit"
@@ -98,12 +104,13 @@ Tabata:
     - "#exercise"
   subject_positioning: "Far"
   thumbnail_text: "Tabata"
+  stream_title: "{length} MINUTE TABATA WORKOUT - NO EQUIPMENT, BODYWEIGHT EXERCISES ONLY!"
 
 Wednesday:
   percent_of_time:
-    warmup: .10
-    cool down: .10
-    conditioning: .80
+    warmup: .025
+    cool down: .025
+    conditioning: .95
   conditioning_blocks: 1
   repeat_conditioning_blocks: 0
   exercises_per_block:
@@ -132,6 +139,8 @@ Wednesday:
   rest_time_after_block: 0
   rest_time_after_exercise: 10
   rest_name: "transition"
+  exercise_length: 63
+  targeted groups limit: 1
   hashtags:
     - "#abs"
     - "#core"
@@ -140,8 +149,9 @@ Wednesday:
     - "#exercise"
   subject_positioning: "Near"
   thumbnail_text: "Core + Pilates"
+  stream_title: "{length} MINUTE ABS AND CORE PILATES WORKOUT - NO EQUIPMENT, BODYWEIGHT EXERCISES ONLY!"
 
-Stretch:
+Friday:
   percent_of_time:
     warmup: 0
     cool down: 0
@@ -167,9 +177,12 @@ Stretch:
   rest_time_after_block: 0
   rest_time_after_exercise: 0
   rest_name: "rest"
+  targeted groups limit: 1
   hashtags:
     - "#stretching"
+    - "#mobility"
     - "#workout"
     - "#exercise"
   subject_positioning: "Near"
   thumbnail_text: "Stretch"
+  stream_title: "{length} MINUTE STRETCH AND MOBILITY SESSION - NO EQUIPMENT NEEDED!"

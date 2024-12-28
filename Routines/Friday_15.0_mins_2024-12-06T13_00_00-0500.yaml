@@ -1,0 +1,95 @@
+- length: 0.0
+  name: warmup
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - warmup
+- length: 60.0
+  name: Puppy Dog Stretch
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: Bicep
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: Hamstring
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: Open Book Chest
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: Tricep
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: Shoulder
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: Reach Over
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: shavasana
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: neck
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: Splits
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: Single Leg Seated Pike
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: Thoracic Rotation
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: Deep Squat
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: Figure Four
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: high cobra
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 0.0
+  name: cool down
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - cool down

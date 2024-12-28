@@ -23,6 +23,7 @@ import googleapiclient.errors
 from google.oauth2.credentials import Credentials
 from googleapiclient.http import MediaFileUpload
 
+from ahk import AHK
 
 import dateutil.parser
 import obswebsocket
@@ -175,9 +176,9 @@ def generate_conditioning_block(args, style, exercise, elapsed):
 
         for targeted_group in style["exercises_per_block"]:
             if targeted_group == 'any':
-                matching_exercises = [_ for _ in exercise if _ not in already_used_exercises and "stretch" not in exercise[_]["targeted groups"]]
+                matching_exercises = [_ for _ in exercise if _ not in already_used_exercises and "stretch" not in exercise[_]["targeted groups"] and _ not in ["warmup", "cool down"]]
             else:
-                matching_exercises = [_ for _ in exercise if targeted_group in exercise[_]["targeted groups"] and _ not in already_used_exercises]
+                matching_exercises = [_ for _ in exercise if targeted_group in exercise[_]["targeted groups"] and _ not in already_used_exercises and _ not in ["warmup", "cool down"]]
 
             for matching_exercise in matching_exercises[:]:
                 for word in matching_exercise.split():
@@ -191,6 +192,10 @@ def generate_conditioning_block(args, style, exercise, elapsed):
                                     except ValueError:
                                         pass
 
+            for matching_exercise in matching_exercises[:]:
+                if len(exercise[matching_exercise]["targeted groups"]) > style["targeted groups limit"]:
+                    matching_exercises.remove(matching_exercise)
+
             name = random.choice(matching_exercises)
 
             chosen_exercise = copy.deepcopy(exercise[name])
@@ -199,6 +204,14 @@ def generate_conditioning_block(args, style, exercise, elapsed):
                 chosen_exercise["length"] = exercise[name]["length"]
             chosen_exercise["reel_or_short"] = False
             already_used_exercises.append(name)
+
+            '''if "random reps" in chosen_exercise:
+                for random_rep in chosen_exercise["random reps"]:
+                    rep_count = 0.1
+                    while rep_count % chosen_exercise["random reps"][random_rep]["multiple"] != 0:
+                        rep_count = random.randint(chosen_exercise["random reps"][random_rep]["min"],
+                                                   chosen_exercise["random reps"][random_rep]["max"])
+                    chosen_exercise["name"] = chosen_exercise["name"].replace(f"<{random_rep}>", f"{rep_count}")'''
 
             conditioning_block.append(chosen_exercise)
 
@@ -304,12 +317,29 @@ def do_routine(args, routine):
 
         now = datetime.datetime.now()
 
-        with open(args.exercise_transition, "w") as f:
-            f.write('exercise transition!')
+        tmi_args = { 'inputName': args.exercise_transition,
+                     'mediaAction': "OBS_WEBSOCKET_MEDIA_INPUT_ACTION_RESTART"
+                   }
+        obsws = obswebsocket.obsws(args.obs_websocket_host,
+                                   args.obs_websocket_port,
+                                   args.obs_websocket_secret)
+        obsws.connect()
+        obsws.call(obswebsocket.requests.TriggerMediaInputAction(**tmi_args))
+        obsws.disconnect()
+
+        if "random reps" in exercise:
+            if "original_name" not in exercise:
+                    exercise["original_name"] = copy.deepcopy(exercise["name"]) 
+            exercise["name"] = exercise["original_name"]
+            for random_rep in exercise["random reps"]:
+                rep_count = 0.1
+                while rep_count % exercise["random reps"][random_rep]["multiple"] != 0:
+                    rep_count = random.randint(exercise["random reps"][random_rep]["min"],
+                                               exercise["random reps"][random_rep]["max"])
+                exercise["name"] = exercise["name"].replace(f"<{random_rep}>", f"{rep_count}")
 
         update_exercise_name(args, exercise["name"])
 
-        print(exercise)
         if exercise["reel_or_short"] and not reel_or_short_recorded:
             obsws = obswebsocket.obsws(args.obs_websocket_host,
                                        args.obs_websocket_port,
@@ -329,16 +359,56 @@ def do_routine(args, routine):
             with open(args.reel_or_short_transition, "w") as f:
                 f.write(f"{exercise['name']} not reel or short")
 
-        show_random_effect(args)
+        if random.randint(0,100) <= args.random_effect_percent:
+            show_random_effect(args)
 
         while now < end_time["exercise"]:
             time_left["routine"] = (end_time["routine"] - now).seconds
             time_left["exercise"] = (end_time["exercise"] - now).seconds
             percent["routine"] = round(time_left["routine"] / (args.length*60), 2)
             percent["exercise"] = round(time_left["exercise"] / exercise["length"], 2)
-            if time_left["exercise"] == 3:
-                with open(args.play_sound, "w") as f:
-                    f.write("powershell -c (New-Object Media.SoundPlayer \"interval_4_seconds.wav\").PlaySync();")
+            elapsed = (now-start_time["routine"]).total_seconds()
+            
+            if int(elapsed) == 10:
+                for source_name in ["Intro - Heart Rate Monitor", "Intro - Heart Rate Monitor - Black Box"]:
+                    source = {"sceneName": "Heart Beat Group", "sourceName": source_name}
+                    obs_scene_item(args, source, True)
+
+            if int(elapsed) == 20:
+                for source_name in ["Intro - Heart Rate Monitor", "Intro - Heart Rate Monitor - Black Box"]:
+                    source = {"sceneName": "Heart Beat Group", "sourceName": source_name}
+                    obs_scene_item(args, source, False)
+
+            if int(elapsed) == 20:
+                for source_name in ["Intro - Battery", "Intro - Battery - Black Box"]:
+                    source = {"sceneName": "Battery Group", "sourceName": source_name}
+                    obs_scene_item(args, source, True)
+
+            if int(elapsed) == 30:
+                for source_name in ["Intro - Battery", "Intro - Battery - Black Box"]:
+                    source = {"sceneName": "Battery Group", "sourceName": source_name}
+                    obs_scene_item(args, source, False)
+
+            if int(elapsed) == 30:
+                for source_name in ["Inbody Test Summary"]:
+                    source = {"sceneName": "Routine", "sourceName": source_name}
+                    obs_scene_item(args, source, True)
+
+            if int(elapsed) == 40:
+                for source_name in ["Inbody Test Summary"]:
+                    source = {"sceneName": "Routine", "sourceName": source_name}
+                    obs_scene_item(args, source, False)
+
+            if time_left["exercise"] == 5:
+                tmi_args = { 'inputName': args.play_sound,
+                             'mediaAction': "OBS_WEBSOCKET_MEDIA_INPUT_ACTION_RESTART"
+                           }
+                obsws = obswebsocket.obsws(args.obs_websocket_host,
+                                           args.obs_websocket_port,
+                                           args.obs_websocket_secret)
+                obsws.connect()
+                obsws.call(obswebsocket.requests.TriggerMediaInputAction(**tmi_args))
+                obsws.disconnect()
 
             if previous_time_left != time_left:
                 if next_exercise["reel_or_short"]:
@@ -658,14 +728,12 @@ def get_google_credentials(args):
 def create_youtube_scheduled_stream(args, routine, thumbnail_file, google_credentials):
     minutes = str(datetime.timedelta(seconds=args.length*60)).split(":")[1]
 
-    if "STRETCH" in args.style.upper().split():
-        session_type = "SESSION"
-        tag_line = "No Equipment Needed!"
-    else:
-        session_type = "WORKOUT"
-        tag_line = "No Equipment, Bodyweight Exercises Only!"
+    with open(args.styles_yaml, "r", encoding="utf-8") as stream:
+        style = yaml.safe_load(stream)
 
-    title = f"{minutes} MINUTE {args.style.upper()} {session_type.upper()} - {tag_line.title()}"
+    title = style[args.style]["stream_title"]
+    print(title)
+    title = title.format(length=minutes)
 
     print("description: exercises include".title())
     list_of_exercises = ["00:00 Intro"]
@@ -696,6 +764,9 @@ def create_youtube_scheduled_stream(args, routine, thumbnail_file, google_creden
 
     youtube = googleapiclient.discovery.build(args.google_api_service_name, args.google_api_version,credentials=google_credentials)
 
+    description = description.replace("<", "")
+    description = description.replace(">", "")
+
     part = "snippet,contentDetails,status"
     body = {
               "snippet": {
@@ -717,6 +788,8 @@ def create_youtube_scheduled_stream(args, routine, thumbnail_file, google_creden
               }
             }
 
+    import pprint
+    pprint.pprint(body)
     request = youtube.liveBroadcasts().insert(part=part, body=body)
     response = request.execute()
 
@@ -755,10 +828,28 @@ def update_exercise_name(args, exercise_name):
     obsws.call(obswebsocket.requests.SetInputSettings(**input_settings))
     obsws.disconnect()
 
-def show_random_effect(args):
+def obs_scene_item(args, source, enabled):
 
-    if random.randint(0,100) >= args.random_effect_percent:
-        return False
+    obsws = obswebsocket.obsws(args.obs_websocket_host,
+                               args.obs_websocket_port,
+                               args.obs_websocket_secret)
+    obsws.connect()
+
+
+    scene_item_id = obsws.call(obswebsocket.requests.GetSceneItemId(**source)).__dict__
+    scene_item_id = scene_item_id["datain"]["sceneItemId"]
+
+    scene_item = {}
+    scene_item["sceneItemId"] = scene_item_id
+    scene_item["sceneName"] = source["sceneName"]
+    scene_item["sceneItemEnabled"] = enabled
+
+    obsws.call(obswebsocket.requests.SetSceneItemEnabled(**scene_item))
+
+    obsws.disconnect()
+
+
+def show_random_effect(args):
 
     print("playing random effect")
     random_effect_file = random.choice(os.listdir(args.random_effect_dir))
@@ -788,6 +879,13 @@ def show_random_effect(args):
         scene_item_transform["sceneItemTransform"] = random_effect_yaml[random_effect_file]["sceneItemTransform"]
         obsws.call(obswebsocket.requests.SetSceneItemTransform(**scene_item_transform))
 
+        print(random_effect_yaml[random_effect_file])
+        if "Speech Balloon" in random_effect_yaml[random_effect_file]:
+            for speech_balloon in random_effect_yaml[random_effect_file]["Speech Balloon"]:
+                show_speech_balloon(args, random_effect_yaml[random_effect_file]["Speech Balloon"][speech_balloon])
+
+
+
     input_settings = {}
 
     input_settings["inputName"] = args.random_effect_name
@@ -798,6 +896,24 @@ def show_random_effect(args):
     obsws.call(obswebsocket.requests.SetSceneItemEnabled(**scene_item))
     obsws.disconnect()
 
+def show_speech_balloon(args, speech_balloon):
+    print(speech_balloon)
+    '''x
+    obsws = obswebsocket.obsws(args.obs_websocket_host,
+                               args.obs_websocket_port,
+                               args.obs_websocket_secret)
+    obsws.connect()
+
+    source = {"sceneName": "Routine", "sourceName": args.random_effect_name}
+    scene_item_id = obsws.call(obswebsocket.requests.GetSceneItemId(**source)).__dict__
+    scene_item_id = scene_item_id["datain"]["sceneItemId"]
+
+    scene_item = {}
+    scene_item["sceneItemId"] = scene_item_id
+    scene_item["sceneName"] = source["sceneName"]
+    scene_item["sceneItemEnabled"] = False
+
+    obsws.call(obswebsocket.requests.SetSceneItemEnabled(**scene_item))'''
 
 def main():
     """main Function"""
@@ -819,7 +935,8 @@ def main():
     parser.add_argument("--start_datetime", default=str(start_datetime))
     parser.add_argument("--skip_livestream_creation", action=argparse.BooleanOptionalAction, default=False)
     parser.add_argument("--record_now", action=argparse.BooleanOptionalAction, default=False)
-    parser.add_argument("--play_sound", default="play_sound.bat")
+    parser.add_argument("--record_countdown", type=int, default=60)
+    parser.add_argument("--play_sound", default="Countdown Timer Audio")
     parser.add_argument("--countdown_timer", default="countdown_timer.txt")
     parser.add_argument("--interval_timer", default="interval_timer.txt")
     parser.add_argument("--current_exercise", default="current_exercise.txt")
@@ -833,7 +950,7 @@ def main():
     parser.add_argument("--stop_streaming", default="stop_streaming.txt")
     parser.add_argument("--start_recording", default="start_recording.txt")
     parser.add_argument("--stop_recording", default="stop_recording.txt")
-    parser.add_argument("--exercise_transition", default="exercise_transition.txt")
+    parser.add_argument("--exercise_transition", default="Exercise Transition")
     parser.add_argument("--reel_or_short_transition", default="reel_or_short_transition.txt")
     parser.add_argument("--thumbnail_templates", default="C:\\Users\\Preston Connors\\Pictures\\Exercise\\Thumbnails\\Templates")
     parser.add_argument("--thumbnail_output", default="C:\\Users\\Preston Connors\\Pictures\\Exercise\\Thumbnails")
@@ -855,10 +972,7 @@ def main():
     parser.add_argument("--google_api_version", default="v3")
     parser.add_argument("--obs_websocket_host", default="localhost")
     parser.add_argument("--obs_websocket_port", default="4455")
-    parser.add_argument("--obs_websocket_secret", default="NL57EZrfB8Mby02l")
-
-
-
+    parser.add_argument("--obs_websocket_secret", default="SAY6rbij3Q7rWxcN")
 
     args = parser.parse_args()
 
@@ -868,7 +982,7 @@ def main():
 
         while not routine_accepted.upper().startswith('Y'):
             routine = generate_routine(args)
-            exercise_names = "\n".join([_["name"].title() for _ in routine])
+            exercise_names = "\n".join([f"{_['name'].title()} {_['length']}" for _ in routine])
             print(f"{exercise_names}")
 
             routine_accepted = input("Enter Y or N to accept this routine: ")
@@ -905,7 +1019,7 @@ def main():
         while not start_routine.upper().startswith('Y'):
             start_routine = input("Enter Y when you are ready for the countdown to start: ")
 
-        t = 6
+        t = args.record_countdown
         while t > 0:
             write_dynamic_data(args, args.length*60, 0, 100, f"recording in {t}", routine[0]["name"])
             update_exercise_name( args, f"recording in {t}")
@@ -927,6 +1041,16 @@ def main():
         with open(args.start_streaming, "w") as f:
             f.write('start!')
 
+    obsws = obswebsocket.obsws(args.obs_websocket_host,
+                               args.obs_websocket_port,
+                               args.obs_websocket_secret)
+    obsws.connect()
+    obsws.call(obswebsocket.requests.SetSceneSceneTransitionOverride(**{"sceneName": "Intro", "transitionName": "Cut"}))
+    obsws.call(obswebsocket.requests.SetCurrentProgramScene(**{"sceneName": "Intro"}))
+    obsws.call(obswebsocket.requests.StartStream())
+    obsws.call(obswebsocket.requests.StartRecord())
+    obsws.disconnect()
+
     elapsed = 0
     while elapsed < args.intro_length:
         t = ':'.join(str(datetime.timedelta(seconds=args.intro_length-elapsed)).split(':')[1:])
@@ -934,14 +1058,22 @@ def main():
         elapsed += 1
         time.sleep(1)
 
-
     with open(args.start_routine, "w") as f:
         f.write('start!')
+
+    obsws.connect()
+    obsws.call(obswebsocket.requests.SetCurrentProgramScene(**{"sceneName": "Routine"}))
+    obsws.disconnect()
 
     do_routine(args, routine)
 
     with open(args.start_outro, "w", encoding="utf-8") as f:
         f.write('start!')
+
+    obsws.connect()
+    obsws.call(obswebsocket.requests.SetSceneSceneTransitionOverride(**{"sceneName": "Outro", "transitionName": "Fade", "transitionDuration": 3000}))
+    obsws.call(obswebsocket.requests.SetCurrentProgramScene(**{"sceneName": "Outro"}))
+    obsws.disconnect()
 
     time.sleep(args.outro_length)
 
@@ -952,11 +1084,19 @@ def main():
                                args.obs_websocket_port,
                                args.obs_websocket_secret)
     obsws.connect()
+    obsws.call(obswebsocket.requests.StopStream())
     obsws.call(obswebsocket.requests.StopRecord())
     obsws.disconnect()
 
     write_dynamic_data(args, 0, 0, 0, "LIVE EVERY WEEKDAY @ 1PM ET", "LIVE EVERY WEEKDAY @ 1PM ET")
 
+    ahk = AHK()
+    win = ahk.win_get(title=[_.title for _ in ahk.list_windows() if 'OBS' in _.title][0])
+    win.activate() 
+    time.sleep(5)
+    ahk.click(2346, 1173)
+
+    '''
     obsws = obswebsocket.obsws(args.obs_websocket_host,
                                args.obs_websocket_port,
                                args.obs_websocket_secret)
@@ -967,6 +1107,8 @@ def main():
     time.sleep(args.story_length)
     obsws.call(obswebsocket.requests.StopRecord())
     obsws.disconnect()
+    '''
+
 
 if __name__ == "__main__":
     main()

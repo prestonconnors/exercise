@@ -1,0 +1,222 @@
+- length: 45.0
+  name: warmup
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - warmup
+- length: 57.0
+  name: Reverse Lunge
+  reel_or_short: false
+  targeted groups:
+  - lower body
+- length: 57.0
+  name: Crab Walk
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+- length: 57.0
+  name: <x> Rear Heel Taps / Burpee
+  random reps:
+    x:
+      max: 6
+      min: 2
+      multiple: 2
+  reel_or_short: false
+  targeted groups:
+  - upper body
+  - lower body
+  - cardio
+- length: 57.0
+  name: <x> Jabs / <y> Jacks
+  random reps:
+    x:
+      max: 8
+      min: 2
+      multiple: 2
+    y:
+      max: 8
+      min: 2
+      multiple: 2
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+  - cardio
+- length: 57.0
+  name: Bear Crawl
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+- length: 57.0
+  name: Skaters / Hop Forward and Backward
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - cardio
+- length: 57.0
+  name: Jumping Jack Punch Twist
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - cardio
+- length: 57.0
+  name: Plank Up / Downs
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+  - core
+- length: 57.0
+  name: Power Slams
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+  - cardio
+- length: 57.0
+  name: Single Raised Straight Leg Crunch
+  reel_or_short: false
+  targeted groups:
+  - core
+- length: 57.0
+  name: Traveling Squats
+  reel_or_short: false
+  targeted groups:
+  - lower body
+- length: 57.0
+  name: Split Squat Runner
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+  - cardio
+- length: 57.0
+  name: Touchdown / Tuck Jumps
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - cardio
+- length: 57.0
+  name: Rainbow Thrusters
+  reel_or_short: false
+  targeted groups:
+  - lower body
+- length: 57.0
+  name: Good Mornings + Calf Raise
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+- length: 57.0
+  name: Pushup + <x> Mountain Climbers
+  random reps:
+    x:
+      max: 8
+      min: 2
+      multiple: 2
+  reel_or_short: false
+  targeted groups:
+  - upper body
+  - lower body
+  - cardio
+- length: 57.0
+  name: Donkey Kick + Pulses
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - core
+- length: 57.0
+  name: Inchworm
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+- length: 57.0
+  name: Touchdowns
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - cardio
+- length: 57.0
+  name: Twisting Situp
+  reel_or_short: false
+  targeted groups:
+  - core
+- length: 57.0
+  name: Surrenders
+  reel_or_short: false
+  targeted groups:
+  - lower body
+- length: 57.0
+  name: <x> Rows / <y> Pushups
+  random reps:
+    x:
+      max: 6
+      min: 2
+      multiple: 2
+    y:
+      max: 3
+      min: 1
+      multiple: 1
+  reel_or_short: false
+  targeted groups:
+  - upper body
+- length: 57.0
+  name: Butt Kicks
+  reel_or_short: false
+  targeted groups:
+  - cardio
+- length: 57.0
+  name: Lift Chop Center Drop
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+- length: 57.0
+  name: Tricep Dips
+  reel_or_short: false
+  targeted groups:
+  - upper body
+- length: 57.0
+  name: High Knees
+  reel_or_short: false
+  targeted groups:
+  - cardio
+- length: 57.0
+  name: Chair Pose
+  reel_or_short: true
+  targeted groups:
+  - lower body
+- length: 57.0
+  name: Frog Stand
+  reel_or_short: false
+  targeted groups:
+  - upper body
+  - core
+- length: 57.0
+  name: Punching Knee Drives
+  reel_or_short: false
+  targeted groups:
+  - cardio
+  - upper body
+- length: 57.0
+  name: X-Ups To Tucks
+  reel_or_short: false
+  targeted groups:
+  - core
+- length: 45.0
+  name: cool down
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - cool down

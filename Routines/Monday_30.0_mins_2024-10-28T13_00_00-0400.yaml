@@ -1,0 +1,127 @@
+- length: 45.0
+  name: warmup
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - warmup
+- &id001
+  length: 53.0
+  name: Plank Jack / Shoulder Tap
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+  - cardio
+- &id002
+  length: 53.0
+  name: Diamond Pushup
+  reel_or_short: false
+  targeted groups:
+  - upper body
+- &id003
+  length: 53.0
+  name: Broad Jump / Side Shuffle
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - cardio
+- &id004
+  length: 53.0
+  name: High Knee Jacks
+  reel_or_short: true
+  targeted groups:
+  - upper body
+  - lower body
+- &id005
+  length: 53.0
+  name: <x> Heel Taps + Pop Squat
+  random reps:
+    x:
+      max: 4
+      min: 2
+      multiple: 1
+  reel_or_short: false
+  targeted groups:
+  - upper body
+  - lower body
+- &id006
+  length: 53.0
+  name: Burpee
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+  - cardio
+- &id007
+  length: 53.0
+  name: Reverse Lunge + Twist
+  reel_or_short: false
+  targeted groups:
+  - upper body
+  - lower body
+  - cardio
+- &id008
+  length: 53.0
+  name: Fly To Situp
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+- &id009
+  length: 53.0
+  name: Leg Lift / Aquaman / Slice / Knees In
+  reel_or_short: false
+  targeted groups:
+  - cardio
+- &id010
+  length: 53.0
+  name: Corkscrew
+  reel_or_short: false
+  targeted groups:
+  - core
+- &id011
+  length: 60
+  name: rest
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- *id001
+- *id002
+- *id003
+- *id004
+- *id005
+- *id006
+- *id007
+- *id008
+- *id009
+- *id010
+- *id011
+- *id001
+- *id002
+- *id003
+- *id004
+- *id005
+- *id006
+- *id007
+- *id008
+- *id009
+- *id010
+- length: 45.0
+  name: cool down
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - cool down

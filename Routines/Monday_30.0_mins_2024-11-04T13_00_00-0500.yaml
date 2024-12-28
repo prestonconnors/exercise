@@ -1,0 +1,147 @@
+- length: 45.0
+  name: warmup
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - warmup
+- &id001
+  length: 53.0
+  name: Plyo Side Lunge
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - cardio
+- &id002
+  length: 53.0
+  name: Traveling Burpee
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+  - cardio
+- &id003
+  length: 53.0
+  name: <x> Skaters / <y> High Knees
+  random reps:
+    x:
+      max: 6
+      min: 1
+      multiple: 3
+    y:
+      max: 6
+      min: 1
+      multiple: 2
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - cardio
+- &id004
+  length: 53.0
+  name: <x> Jabs / <y> Jacks
+  random reps:
+    x:
+      max: 8
+      min: 2
+      multiple: 2
+    y:
+      max: 8
+      min: 2
+      multiple: 2
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+  - cardio
+- &id005
+  length: 53.0
+  name: pushup + straight arm back
+  reel_or_short: true
+  targeted groups:
+  - upper body
+- &id006
+  length: 53.0
+  name: Lateral Tuck Jumps
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - cardio
+- &id007
+  length: 53.0
+  name: <x> Mountain Climbers / Hop Up
+  random reps:
+    x:
+      max: 8
+      min: 2
+      multiple: 2
+  reel_or_short: false
+  targeted groups:
+  - cardio
+  - lower body
+  - upper body
+- &id008
+  length: 53.0
+  name: Plank + Knee Taps
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+  - core
+- &id009
+  length: 53.0
+  name: Punch Over / Unders
+  reel_or_short: false
+  targeted groups:
+  - upper body
+  - cardio
+- &id010
+  length: 53.0
+  name: Heel Walk
+  reel_or_short: false
+  targeted groups:
+  - core
+- &id011
+  length: 60
+  name: rest
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- *id001
+- *id002
+- *id003
+- *id004
+- *id005
+- *id006
+- *id007
+- *id008
+- *id009
+- *id010
+- *id011
+- *id001
+- *id002
+- *id003
+- *id004
+- *id005
+- *id006
+- *id007
+- *id008
+- *id009
+- *id010
+- length: 45.0
+  name: cool down
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - cool down

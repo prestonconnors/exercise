@@ -1,0 +1,95 @@
+- length: 0.0
+  name: warmup
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - warmup
+- length: 60.0
+  name: Splits
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: Bicep
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: Shoulder
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: Hamstring
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: pigeon pose
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: Single Leg Seated Pike
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: Prone Y Raises
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: Downward Dog
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: Heart Opener
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: Hip flexor
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: Thoracic Rotation
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: forearm
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: happy baby / stradle
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: scorpion
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 60.0
+  name: Cossack
+  reel_or_short: false
+  targeted groups:
+  - stretch
+- length: 0.0
+  name: cool down
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - cool down

@@ -1,0 +1,130 @@
+- length: 45.0
+  name: warmup
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - warmup
+- &id001
+  length: 53.0
+  name: Burpee
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+  - cardio
+- &id002
+  length: 53.0
+  name: Frog Stand
+  reel_or_short: false
+  targeted groups:
+  - upper body
+  - core
+- &id003
+  length: 53.0
+  name: <x> Jacks / <y> Air Jacks
+  random reps:
+    x:
+      max: 8
+      min: 1
+      multiple: 1
+    y:
+      max: 3
+      min: 1
+      multiple: 1
+  reel_or_short: true
+  targeted groups:
+  - lower body
+  - upper body
+  - cardio
+- &id004
+  length: 53.0
+  name: Broad Jump / Side Shuffle
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - cardio
+- &id005
+  length: 53.0
+  name: Plank To Tricep Extension
+  reel_or_short: false
+  targeted groups:
+  - upper body
+  - core
+- &id006
+  length: 53.0
+  name: Twist / Punch
+  reel_or_short: false
+  targeted groups:
+  - upper body
+  - cardio
+- &id007
+  length: 53.0
+  name: Forward Lunge
+  reel_or_short: false
+  targeted groups:
+  - lower body
+- &id008
+  length: 53.0
+  name: Inchworm + Pushup
+  reel_or_short: false
+  targeted groups:
+  - upper body
+- &id009
+  length: 53.0
+  name: In In Out Out Jumps
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - cardio
+- &id010
+  length: 53.0
+  name: Hollow Body Hold
+  reel_or_short: false
+  targeted groups:
+  - core
+- &id011
+  length: 60
+  name: rest
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- *id001
+- *id002
+- *id003
+- *id004
+- *id005
+- *id006
+- *id007
+- *id008
+- *id009
+- *id010
+- *id011
+- *id001
+- *id002
+- *id003
+- *id004
+- *id005
+- *id006
+- *id007
+- *id008
+- *id009
+- *id010
+- length: 45.0
+  name: cool down
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - cool down

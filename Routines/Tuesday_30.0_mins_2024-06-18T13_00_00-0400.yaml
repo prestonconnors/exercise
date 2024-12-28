@@ -1,0 +1,204 @@
+- length: 180.0
+  name: warmup
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - warmup
+- length: 48.0
+  name: Jump Squat
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - cardio
+- length: 48.0
+  name: Pushup + 4 Mountain Climbers
+  reel_or_short: false
+  targeted groups:
+  - upper body
+  - lower body
+  - cardio
+- length: 48.0
+  name: Butt Kicks
+  reel_or_short: false
+  targeted groups:
+  - cardio
+- length: 48.0
+  name: Side Jacks
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+  - cardio
+- length: 48.0
+  name: Superman / Lat Pull
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+  - core
+- length: 48.0
+  name: Lateral High Knees
+  reel_or_short: false
+  targeted groups:
+  - cardio
+  - lower body
+- length: 48.0
+  name: One Leg Plank
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+  - core
+- length: 48.0
+  name: Shoulder Taps
+  reel_or_short: true
+  targeted groups:
+  - core
+  - upper body
+- length: 48.0
+  name: Punching Knee Drives
+  reel_or_short: false
+  targeted groups:
+  - cardio
+  - upper body
+- length: 48.0
+  name: Butterfly Crunches
+  reel_or_short: false
+  targeted groups:
+  - core
+- length: 48.0
+  name: Duck Walk
+  reel_or_short: false
+  targeted groups:
+  - lower body
+- length: 48.0
+  name: Inchworm
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+- length: 48.0
+  name: Reverse Lunge + Kick
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - cardio
+- length: 48.0
+  name: Curtsy + Reach Up + Down
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+- length: 48.0
+  name: Twist / Punch
+  reel_or_short: false
+  targeted groups:
+  - upper body
+  - cardio
+- length: 48.0
+  name: Carioca
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - cardio
+- length: 48.0
+  name: Ball Slams
+  reel_or_short: false
+  targeted groups:
+  - lower body
+- length: 48.0
+  name: Frog Stand
+  reel_or_short: false
+  targeted groups:
+  - upper body
+  - core
+- length: 48.0
+  name: Euro Step
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+  - cardio
+- length: 48.0
+  name: Shoulders-Elevated Hip Raise
+  reel_or_short: false
+  targeted groups:
+  - core
+- length: 48.0
+  name: Hamstring Curls
+  reel_or_short: false
+  targeted groups:
+  - lower body
+- length: 48.0
+  name: <x> Rows / <y> Pushups
+  random reps:
+    x:
+      max: 6
+      min: 2
+      multiple: 2
+    y:
+      max: 3
+      min: 1
+      multiple: 1
+  reel_or_short: false
+  targeted groups:
+  - upper body
+- length: 48.0
+  name: Touchdown / Tuck Jumps
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - cardio
+- length: 48.0
+  name: Chest To Floor Burpee
+  reel_or_short: false
+  targeted groups:
+  - upper body
+  - lower body
+- length: 48.0
+  name: Body Saw
+  reel_or_short: false
+  targeted groups:
+  - upper body
+  - core
+- length: 48.0
+  name: Small Skaters
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - cardio
+- length: 48.0
+  name: Chair Pose
+  reel_or_short: false
+  targeted groups:
+  - lower body
+- length: 48.0
+  name: Bear Crawl
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+- length: 48.0
+  name: Run
+  reel_or_short: false
+  targeted groups:
+  - cardio
+- length: 48.0
+  name: Beast Hold
+  reel_or_short: false
+  targeted groups:
+  - core
+- length: 180.0
+  name: cool down
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - cool down

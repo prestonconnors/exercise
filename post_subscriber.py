@@ -32,8 +32,11 @@ pprint.pprint(response.json())
 #post donation flow
 url = "https://streamlabs.com/api/v2.0/donations"
 
-name = "sophhtastic"
+name = "I Wake Up Hungry"
 name = name.replace("&", "and")
+name = name.replace("-", " ")
+name = name.replace(".", " ")
+
 
 if len(name) > 25:
     name = name[0:25]

@@ -8,6 +8,18 @@ import os
 import humanfriendly
 import yaml
 
+def convert_to_mp4(args): 
+
+    video_name  = os.path.splitext(args.source_video)[0]
+    tmp_file = f"{video_name}.mp4"
+    cmd = [
+            "ffmpeg",
+            "-i", args.source_video,
+            "-c", "copy",
+            "-y",
+            tmp_file,
+          ]
+    subprocess.run(cmd, check=True)
 
 
 def create_snippets(args, style, routine):
@@ -189,6 +201,11 @@ def main():
 
     description = input("Reel Description: ")
     url = input("Full Routine URL: ")
+
+    if os.path.splitext(args.source_video)[1] != ".mp4":
+        convert_to_mp4(args)
+        args.source_video = f"{os.path.splitext(args.source_video)[0]}.mp4"
+        print(args.source_video)
 
     create_snippets(args, style, routine)
     merge_snippets(args)

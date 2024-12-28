@@ -1,0 +1,125 @@
+- length: 45.0
+  name: warmup
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - warmup
+- &id001
+  length: 53.0
+  name: <x> Jumping Jack + <y> Pop Squat
+  random_reps:
+    x:
+      max: 4
+      min: 2
+      multiple: 1
+    y:
+      max: 2
+      min: 1
+      multiple: 1
+  reel_or_short: false
+  targeted groups:
+  - upper body
+  - lower body
+  - cardio
+- &id002
+  length: 53.0
+  name: Plank Hops
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+- &id003
+  length: 53.0
+  name: Plyo Lunge
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - cardio
+- &id004
+  length: 53.0
+  name: Step Back Knee Driver
+  reel_or_short: false
+  targeted groups:
+  - lower body
+- &id005
+  length: 53.0
+  name: Pushup / Superman
+  reel_or_short: false
+  targeted groups:
+  - upper body
+- &id006
+  length: 53.0
+  name: High Knees
+  reel_or_short: false
+  targeted groups:
+  - cardio
+- &id007
+  length: 53.0
+  name: Rainbow Thrusters
+  reel_or_short: true
+  targeted groups:
+  - lower body
+- &id008
+  length: 53.0
+  name: Piston Press
+  reel_or_short: false
+  targeted groups:
+  - upper body
+- &id009
+  length: 53.0
+  name: Run
+  reel_or_short: false
+  targeted groups:
+  - cardio
+- &id010
+  length: 53.0
+  name: Full Leg Raises
+  reel_or_short: false
+  targeted groups:
+  - core
+- &id011
+  length: 60
+  name: rest
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- *id001
+- *id002
+- *id003
+- *id004
+- *id005
+- *id006
+- *id007
+- *id008
+- *id009
+- *id010
+- *id011
+- *id001
+- *id002
+- *id003
+- *id004
+- *id005
+- *id006
+- *id007
+- *id008
+- *id009
+- *id010
+- length: 45.0
+  name: cool down
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - cool down

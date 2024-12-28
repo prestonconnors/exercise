@@ -1,0 +1,124 @@
+- length: 45.0
+  name: warmup
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - warmup
+- &id001
+  length: 53.0
+  name: Seal Jacks
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - cardio
+- &id002
+  length: 53.0
+  name: Bear Crawl
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+- &id003
+  length: 53.0
+  name: Single Leg Jump Rope
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - cardio
+- &id004
+  length: 53.0
+  name: Low Plank + Punch
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+  - core
+- &id005
+  length: 53.0
+  name: Blast Off Pushup
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+- &id006
+  length: 53.0
+  name: Burpee + Lunge Scissor Jumps
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - cardio
+- &id007
+  length: 53.0
+  name: Small Skaters
+  reel_or_short: true
+  targeted groups:
+  - lower body
+  - cardio
+- &id008
+  length: 53.0
+  name: Curtsy + Crunch
+  reel_or_short: false
+  targeted groups:
+  - upper body
+  - lower body
+  - cardio
+- &id009
+  length: 53.0
+  name: Run
+  reel_or_short: false
+  targeted groups:
+  - cardio
+- &id010
+  length: 53.0
+  name: Superman / Lat Pull
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - upper body
+  - core
+- &id011
+  length: 60
+  name: rest
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- *id001
+- *id002
+- *id003
+- *id004
+- *id005
+- *id006
+- *id007
+- *id008
+- *id009
+- *id010
+- *id011
+- *id001
+- *id002
+- *id003
+- *id004
+- *id005
+- *id006
+- *id007
+- *id008
+- *id009
+- *id010
+- length: 45.0
+  name: cool down
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - cool down

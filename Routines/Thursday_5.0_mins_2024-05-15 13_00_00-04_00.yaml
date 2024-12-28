@@ -1,0 +1,323 @@
+- length: 30.0
+  name: warmup
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - warmup
+- &id001
+  length: -4.791666666666667
+  name: Rainbow Thrusters
+  reel_or_short: false
+  targeted groups:
+  - lower body
+- &id002
+  length: 10
+  name: rest
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- &id003
+  length: -4.791666666666667
+  name: <x> Rear Heel Taps / Burpee
+  random reps:
+    x:
+      max: 6
+      min: 2
+      multiple: 2
+  reel_or_short: false
+  targeted groups:
+  - upper body
+  - lower body
+  - cardio
+- &id004
+  length: 10
+  name: rest
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- *id001
+- *id002
+- *id003
+- *id004
+- *id001
+- *id002
+- *id003
+- *id004
+- *id001
+- *id002
+- *id003
+- *id004
+- &id005
+  length: -4.791666666666667
+  name: Side Lying Clam
+  reel_or_short: false
+  targeted groups:
+  - lower body
+- &id006
+  length: 10
+  name: rest
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- &id007
+  length: -4.791666666666667
+  name: Hollow Knee Hug
+  reel_or_short: false
+  targeted groups:
+  - core
+- &id008
+  length: 10
+  name: rest
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- *id005
+- *id006
+- *id007
+- *id008
+- *id005
+- *id006
+- *id007
+- *id008
+- *id005
+- *id006
+- *id007
+- *id008
+- &id009
+  length: -4.791666666666667
+  name: Open Leg Rocker
+  reel_or_short: false
+  targeted groups:
+  - core
+- &id010
+  length: 10
+  name: rest
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- &id011
+  length: -4.791666666666667
+  name: Front Lunge + Chop
+  reel_or_short: true
+  targeted groups:
+  - lower body
+- &id012
+  length: 10
+  name: rest
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- *id009
+- *id010
+- *id011
+- *id012
+- *id009
+- *id010
+- *id011
+- *id012
+- *id009
+- *id010
+- *id011
+- *id012
+- &id013
+  length: -4.791666666666667
+  name: Lateral Tuck Jumps
+  reel_or_short: false
+  targeted groups:
+  - lower body
+  - cardio
+- &id014
+  length: 10
+  name: rest
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- &id015
+  length: -4.791666666666667
+  name: Rolling Like A Ball
+  reel_or_short: false
+  targeted groups:
+  - core
+- &id016
+  length: 10
+  name: rest
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- *id013
+- *id014
+- *id015
+- *id016
+- *id013
+- *id014
+- *id015
+- *id016
+- *id013
+- *id014
+- *id015
+- *id016
+- &id017
+  length: -4.791666666666667
+  name: <x> Pushups / <y> Half Plank
+  random reps:
+    x:
+      max: 6
+      min: 1
+      multiple: 1
+    y:
+      max: 2
+      min: 1
+      multiple: 1
+  reel_or_short: false
+  targeted groups:
+  - upper body
+- &id018
+  length: 10
+  name: rest
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- &id019
+  length: -4.791666666666667
+  name: Triceps Dips
+  reel_or_short: false
+  targeted groups:
+  - upper body
+- &id020
+  length: 10
+  name: rest
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- *id017
+- *id018
+- *id019
+- *id020
+- *id017
+- *id018
+- *id019
+- *id020
+- *id017
+- *id018
+- *id019
+- *id020
+- &id021
+  length: -4.791666666666667
+  name: <x> Jumping Jack + <y> Pop Squat
+  random_reps:
+    x:
+      max: 4
+      min: 2
+      multiple: 1
+    y:
+      max: 2
+      min: 1
+      multiple: 1
+  reel_or_short: false
+  targeted groups:
+  - upper body
+  - lower body
+  - cardio
+- &id022
+  length: 10
+  name: rest
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- &id023
+  length: -4.791666666666667
+  name: Butterfly Crunches
+  reel_or_short: false
+  targeted groups:
+  - core
+- &id024
+  length: 10
+  name: rest
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - rest
+- *id021
+- *id022
+- *id023
+- *id024
+- *id021
+- *id022
+- *id023
+- *id024
+- *id021
+- *id022
+- *id023
+- length: 30.0
+  name: cool down
+  position: all
+  reel_or_short: false
+  targeted groups:
+  - full body
+  targeted_muscles:
+  - all
+  type:
+  - cool down
